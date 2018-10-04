@@ -27,35 +27,39 @@
     </div>
 
     <header>
-        <div class="top__line" id="sticky__menu">
-            <div class="logo">
-                <img src="./img/logo_white.svg" class="logo__white" alt="logo">
-                <img src="./img/logo_green.svg" class="logo__green" alt="logo">
+        <div class="container" id="sticky__menu">
+            <div class="top__line">
+                <div class="logo">
+                    <img src="./img/logo_white.svg" class="logo__white" alt="logo">
+                    <img src="./img/logo_green.svg" class="logo__green" alt="logo">
+                </div>
+                <!-- /.logo -->
+                <nav>
+                    <ul>
+                        <li class="has__child">
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li class="active"><a href="#">Портфолио</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="phone__email">
+                    <a href="tel:89787547499">8 (978) 754-74-99</a>
+                    <a href="mailto:info@krasber.ru">info@krasber.ru</a>
+                </div>
+                <!-- /.phone__email -->
             </div>
-            <!-- /.logo -->
-            <nav>
-                <ul>
-                    <li class="has__child">
-                        <a href="#">Услуги</a>
-                    </li>
-                    <li><a href="#">Портфолио</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="phone__email">
-                <a href="tel:89787547499">8 (978) 754-74-99</a>
-                <a href="mailto:info@krasber.ru">info@krasber.ru</a>
-            </div>
-            <!-- /.phone__email -->
+            <!-- /.top__line -->
         </div>
-        <!-- /.top__line -->
-        <div class="slogan__box">
-            <p>Комплексное<br />сопровождение сайта<br />от ТЗ до ТОП!</p>
+        <div class="container">
+            <div class="slogan__box">
+                <p>Комплексное<br />сопровождение сайта<br />от ТЗ до ТОП!</p>
 
-            <a href="#" class="btn black">Заказать сайт</a>
+                <a href="#" class="btn black">Заказать сайт</a>
+            </div>
+            <!-- /.slogan__box -->
         </div>
-        <!-- /.slogan__box -->
     </header>
 
     <section class="services">
@@ -124,14 +128,101 @@
                         <p>Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</p>
                     </div>
                     <div class="form__box">
-
+                        <form action="#" class="order__service" method="post">
+                            <div class="services__list single__block">
+                                <select name="service" id="service__field">
+                                    <option selected disabled>Не выбрано</option>
+                                    <optgroup label="Создание сайта">
+                                        <option>Индивидуальный проект</option>
+                                        <option>Сайт-визитка</option>
+                                        <option>Сайт-каталог</option>
+                                    </optgroup>
+                                    <optgroup label="Техническая поддержка">
+                                        <option>Домен-хостинг</option>
+                                        <option>SEO-аудит</option>
+                                        <option>юзабилити аудит</option>
+                                    </optgroup>
+                                </select>
+                                <i class="select__arrow"></i>
+                            </div>
+                            <div class="single__block">
+                                <input type="text" name="name" placeholder="Ваше имя" autocomplete="off">
+                                <input type="text" name="phone" placeholder="Номер телефона" autocomplete="off">
+                            </div>
+                            <div class="single__block">
+                                <input type="email" name="email" placeholder="Email" autocomplete="off">
+                                <input type="submit" value="Отправить">
+                            </div>
+                            <div class="single__block agree__block">
+                                <input type="checkbox" name="agree" id="i_agree" value="1" checked>
+                                <label for="i_agree">Отправляя заяявку  вы соглашаетесь с <a href="#">правилами офферты</a></label>
+                            </div>
+                        </form>
+                        <!-- /.order__service -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="js/vue.min.js"></script>
+    <section class="why__we">
+        <div class="container">
+            <div class="step">02</div>
+            <div class="as_h1">Почему мы</div>
+            <div class="why__we-list">
+                <div class="why__we-list-item">
+                    <svg class="inline-svg-icon opit_v_razrabotke">
+                        <use xlink:href="./img/symbols.svg#opit_v_razrabotke"></use>
+                    </svg>
+                    <div class="separator"></div>
+                    <div class="desc">Опыт в разработке сайтов более 5 лет</div>
+                </div>
+                <div class="why__we-list-item">
+                    <svg class="inline-svg-icon opit">
+                        <use xlink:href="./img/symbols.svg#opit"></use>
+                    </svg>
+                    <div class="separator"></div>
+                    <div class="desc">Опыт в интернет-рекламе более 3 лет</div>
+                </div>
+                <div class="why__we-list-item">
+                    <svg class="inline-svg-icon sertifikat">
+                        <use xlink:href="./img/symbols.svg#sertifikat"></use>
+                    </svg>
+                    <div class="separator"></div>
+                    <div class="desc">Сертифицированные специалисты Яндекс.Директ и Google.Adwords</div>
+                </div>
+                <div class="why__we-list-item">
+                    <svg class="inline-svg-icon konsultaciya">
+                        <use xlink:href="./img/symbols.svg#konsultaciya"></use>
+                    </svg>
+                    <div class="separator"></div>
+                    <div class="desc">Бесплатные консультации и информационная поддержка спец. на всех этапах работы</div>
+                </div>
+                <div class="why__we-list-item">
+                    <svg class="inline-svg-icon podhod">
+                        <use xlink:href="./img/symbols.svg#podhod"></use>
+                    </svg>
+                    <div class="separator"></div>
+                    <div class="desc">Индивидуальный подход и расчет стоимости для каждого клиента</div>
+                </div>
+                <div class="why__we-list-item">
+                    <svg class="inline-svg-icon garantii">
+                        <use xlink:href="./img/symbols.svg#garantii"></use>
+                    </svg>
+                    <div class="separator"></div>
+                    <div class="desc">Юридические гарантии (составление договора)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guestbook">
+        <div class="container">
+            <div class="step">03</div>
+            <div class="as_h1">Отзывы клиентов</div>
+        </div>
+    </section>
+
     <script src="js/app.min.js"></script>
     </body>
 </html>
