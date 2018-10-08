@@ -27,30 +27,65 @@
     </div>
 
     <header>
-        <div class="container" id="sticky__menu">
-            <div class="top__line">
-                <div class="logo">
-                    <img src="./img/logo_white.svg" class="logo__white" alt="logo">
-                    <img src="./img/logo_green.svg" class="logo__green" alt="logo">
+        <div class="sticky__menu">
+            <div class="container">
+                <div class="top__line">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="./img/logo_white.svg" data-green-logo="./img/logo_green.svg" alt="logo">
+                        </a>
+                    </div>
+                    <!-- /.logo -->
+                    <nav>
+                        <ul>
+                            <li class="has__child">
+                                <a href="/uslugi.html">Услуги</a>
+                                <ul>
+                                    <li>
+                                        <div>Создание сайта</div>
+                                        <ul>
+                                            <li><a href="#">индивидуальный проект</a></li>
+                                            <li><a href="#">сайт-визитка</a></li>
+                                            <li><a href="#">сайт-каталог</a></li>
+                                            <li><a href="#">интернет-магазин</a></li>
+                                            <li><a href="#">корпоративный сайт</a></li>
+                                            <li><a href="#">редизайн сайта</a></li>
+                                            <li><a href="#">ip</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div>Техническая поддержка</div>
+                                        <ul>
+                                            <li><a href="#">домен-хотинг</a></li>
+                                            <li><a href="#">seo-аудит</a></li>
+                                            <li><a href="#">юзабилити аудит</a></li>
+                                            <li><a href="#">разовая оптимизация</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div>Сопровождение сайта</div>
+                                        <ul>
+                                            <li><a href="#">seo-продвижение</a></li>
+                                            <li><a href="#">контекстная реклама</a></li>
+                                            <li><a href="#">SMM</a></li>
+                                            <li><a href="#">дизайн-сопровождение</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li class="active"><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="phone__email">
+                        <a href="tel:89787547499" title="Позвонить">8 (978) 754-74-99</a>
+                        <a href="mailto:info@krasber.ru" title="Написать на почту">info@krasber.ru</a>
+                    </div>
+                    <!-- /.phone__email -->
                 </div>
-                <!-- /.logo -->
-                <nav>
-                    <ul>
-                        <li class="has__child">
-                            <a href="#">Услуги</a>
-                        </li>
-                        <li class="active"><a href="#">Портфолио</a></li>
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <div class="phone__email">
-                    <a href="tel:89787547499">8 (978) 754-74-99</a>
-                    <a href="mailto:info@krasber.ru">info@krasber.ru</a>
-                </div>
-                <!-- /.phone__email -->
+                <!-- /.top__line -->
             </div>
-            <!-- /.top__line -->
         </div>
         <div class="container">
             <div class="slogan__box">
@@ -65,7 +100,7 @@
     <section class="services">
         <div class="container">
             <div class="step">01</div>
-            <div class="as_h1">Наши услуги</div>
+            <div class="as__h1">Наши услуги</div>
 
             <div class="services__list">
                 <div class="services__list-item">
@@ -124,12 +159,12 @@
             <div class="order__service-form">
                 <div class="wrap">
                     <div class="desc">
-                        <div class="as_h1">Заказать услугу</div>
+                        <div class="as__h1">Заказать услугу</div>
                         <p>Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</p>
                     </div>
                     <div class="form__box">
                         <form action="#" class="order__service" method="post">
-                            <div class="services__list single__block">
+                            <div class="services__list-block single__block">
                                 <select name="service" id="service__field">
                                     <option selected disabled>Не выбрано</option>
                                     <optgroup label="Создание сайта">
@@ -147,10 +182,14 @@
                             </div>
                             <div class="single__block">
                                 <input type="text" name="name" placeholder="Ваше имя" autocomplete="off">
+                            </div>
+                            <div class="single__block">
                                 <input type="text" name="phone" placeholder="Номер телефона" autocomplete="off">
                             </div>
                             <div class="single__block">
                                 <input type="email" name="email" placeholder="Email" autocomplete="off">
+                            </div>
+                            <div class="single__block">
                                 <input type="submit" value="Отправить">
                             </div>
                             <div class="single__block agree__block">
@@ -168,7 +207,7 @@
     <section class="why__we">
         <div class="container">
             <div class="step">02</div>
-            <div class="as_h1">Почему мы</div>
+            <div class="as__h1">Почему мы</div>
             <div class="why__we-list">
                 <div class="why__we-list-item">
                     <svg class="inline-svg-icon opit_v_razrabotke">
@@ -219,22 +258,9 @@
     <section class="guestbook">
         <div class="container">
             <div class="step">03</div>
-            <div class="as_h1">Отзывы клиентов</div>
+            <div class="as__h1">Отзывы клиентов</div>
 
             <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="guestbook__image">
-                        <img src="./img/logo_client_01.png" alt="alt">
-                    </div>
-                    <div class="guestbook__body">
-                       <div class="text">
-                           <p>Работаем с &laquo;Красбер&raquo; еще с тех бородатых времен, &nbsp;когда люди были очень маленькими, компьютеры очень большими, по земле бегали мамонты, а ребята были простыми фрилансерами. Начинали сотрудничество с небольших заказов и мелких разовых доработок, вроде перевода сайта на бутстрап, программирования парсера планировок и т.п. Сейчас ведем полноценное сотрудничество в области создания с нуля и поддержки высоконагруженных проектов и технологичных стартапов в области недвижимости.</p>
-                       </div>
-                        <div class="company">
-                            JackBlackSeo, Тюмень
-                        </div>
-                    </div>
-                </div>
                 <div class="item">
                     <div class="guestbook__image">
                         <img src="./img/logo_client_02.svg" alt="alt">
@@ -250,19 +276,36 @@
                         </div>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="guestbook__image">
+                        <img src="./img/logo_client_01.png" alt="alt">
+                    </div>
+                    <div class="guestbook__body">
+                       <div class="text">
+                           <p>Работаем с &laquo;Красбер&raquo; еще с тех бородатых времен, &nbsp;когда люди были очень маленькими, компьютеры очень большими, по земле бегали мамонты, а ребята были простыми фрилансерами. Начинали сотрудничество с небольших заказов и мелких разовых доработок, вроде перевода сайта на бутстрап, программирования парсера планировок и т.п. Сейчас ведем полноценное сотрудничество в области создания с нуля и поддержки высоконагруженных проектов и технологичных стартапов в области недвижимости.</p>
+                       </div>
+                        <div class="company">
+                            JackBlackSeo, Тюмень
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
     </section>
 
     <section class="portfolio">
+        <div class="bg__box"></div>
         <div class="container">
             <div class="step">04</div>
-            <div class="as_h1">Портфолио</div>
+            <div class="as__h1">Портфолио</div>
 
             <div class="portfolio__list">
 
-                <div class="portfolio__list-item" style="background-image: url('../img/portfolio-01.jpg')">
+                <div class="portfolio__list-item">
+                    <figure>
+                        <img src="./img/portfolio-01.jpg" alt="alt" title="Медведь и слон">
+                    </figure>
                     <div class="body">
                         <div class="name">
                             <a href="#">Создание лэндинга для салона Misslisse</a>
@@ -291,7 +334,10 @@
                     </div>
                 </div>
 
-                <div class="portfolio__list-item" style="background-image: url('../img/portfolio-02.jpg')">
+                <div class="portfolio__list-item">
+                    <figure>
+                        <img src="./img/portfolio-02.jpg" alt="alt" title="SEO-positions">
+                    </figure>
                     <div class="body">
                         <div class="name">
                             <a href="#">Создание лэндинга для салона Misslisse</a>
@@ -320,7 +366,10 @@
                     </div>
                 </div>
 
-                <div class="portfolio__list-item" style="background-image: url('../img/portfolio-03.jpg')">
+                <div class="portfolio__list-item">
+                    <figure>
+                        <img src="./img/portfolio-03.jpg" alt="alt" title="CRM-система">
+                    </figure>
                     <div class="body">
                         <div class="name">
                             <a href="#">Создание лэндинга для салона Misslisse</a>
@@ -360,7 +409,7 @@
     <section class="we__work">
         <div class="container">
             <div class="step">05</div>
-            <div class="as_h1">Мы работаем</div>
+            <div class="as__h1">Мы работаем</div>
             <div class="we__work-list">
                 <div class="we__work-list-item">
                     <img src="./img/we_work-01.jpg" alt="">
@@ -401,6 +450,136 @@
             </div>
         </div>
     </section>
+
+    <section class="order__form">
+        <div class="container">
+            <div class="as__h1">Заказать сайт</div>
+            <div class="sub__title">Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</div>
+
+            <form action="#" method="post">
+                <div class="single__block">
+                    <input type="text" name="name" placeholder="Ваше имя" autocomplete="off">
+                </div>
+                <div class="single__block">
+                    <input type="email" name="email" placeholder="Номер телефона" autocomplete="off">
+                </div>
+                <div class="single__block">
+                    <input type="text" name="phone" placeholder="Email" autocomplete="off">
+                </div>
+                <div class="single__block message">
+                    <textarea name="message" id="message" placeholder="Дополнительная информация"></textarea>
+                </div>
+                <div class="single__block agree__block">
+                    <input type="checkbox" name="agree" id="i_agree2" value="1" checked>
+                    <label for="i_agree2">Отправляя заяявку  вы соглашаетесь с <a href="#" title="Перейти на страницу описания">правилами офферты</a></label>
+                </div>
+                <div class="single__block submit__block">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer__contacts">
+        <div class="container">
+            <div class="row">
+                <div class="footer__contacts-text">
+                    Звоните, пишите, договоримся!
+                </div>
+                <div class="footer__contacts-messengers">
+                    <div class="phone"><a href="#">8 (978) 754-74-99</a></div>
+                    <div class="email"><a href="#">info@krasber.ru</a></div>
+                    <div class="f__icons">
+                        <a href="#">
+                            <svg class="inline-svg-icon telegram">
+                                <use xlink:href="./img/symbols.svg#telegram"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="inline-svg-icon viber">
+                                <use xlink:href="./img/symbols.svg#viber"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="inline-svg-icon skype">
+                                <use xlink:href="./img/symbols.svg#skype"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="inline-svg-icon insta">
+                                <use xlink:href="./img/symbols.svg#insta"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="inline-svg-icon facebook">
+                                <use xlink:href="./img/symbols.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="inline-svg-icon vk">
+                                <use xlink:href="./img/symbols.svg#vk"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="line"></div>
+            <div class="list__columns">
+                <div class="col__logo">
+                    <img src="./img/logo_green.svg" class="logo__green" alt="logo">
+                    <div class="copyright">
+                        2017 - 2018 © Создание и раскрутка сайтов. ООО «Красбер», ИНН 9106013479
+                    </div>
+                </div>
+                <div class="col__service">
+                    <div class="title">Создание<br/> сайта</div>
+                    <ul>
+                        <li><a href="#">индивидуальный проект</a></li>
+                        <li><a href="#">сайт-визитка</a></li>
+                        <li><a href="#">сайт-каталог</a></li>
+                        <li><a href="#">интернет-магазин</a></li>
+                        <li><a href="#">корпоративный сайт</a></li>
+                        <li><a href="#">редизайн сайта</a></li>
+                        <li><a href="#">ip</a></li>
+                    </ul>
+                </div>
+                <div class="col__service">
+                    <div class="title">Техническая поддержка</div>
+                    <ul>
+                        <li><a href="#">домен-хотинг</a></li>
+                        <li><a href="#">seo-аудит</a></li>
+                        <li><a href="#">юзабилити аудит</a></li>
+                        <li><a href="#">разовая оптимизация</a></li>
+                    </ul>
+                </div>
+                <div class="col__service">
+                    <div class="title">Сопровождение сайта</div>
+                    <ul>
+                        <li><a href="#">seo-продвижение</a></li>
+                        <li><a href="#">контекстная реклама</a></li>
+                        <li><a href="#">SMM</a></li>
+                        <li><a href="#">дизайн-сопровождение</a></li>
+                    </ul>
+                </div>
+                <div class="col__nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/app.min.js"></script>
     </body>
