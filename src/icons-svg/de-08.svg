@@ -1,1 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="54" viewBox="0 0 62 54"><g><g transform="translate(-713 -1079)"><image width="62" height="54" transform="translate(713 1079)" xlink:href="data:image/png;base64,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"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 170.1 147" style="enable-background:new 0 0 170.1 147;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00CC45;}
+</style>
+<g>
+	<path class="st0" d="M154.6,101.8c-1.4-0.5-2.4,0.1-3.4,1c-5.8,5.8-11.7,11.7-17.5,17.5c-0.3,0.3-0.4,0.6-0.8,1.2
+		c-0.7-0.8-1-1.2-1.4-1.6c-2.5-2.6-5.1-5.1-7.6-7.6c-0.8-0.8-1.8-1.2-2.9-1c-1.2,0.3-2,0.9-2.3,2.1c-0.4,1.3,0,2.3,0.9,3.2
+		c3.6,3.6,7.2,7.2,10.7,10.7c1.8,1.8,3.4,1.8,5.2,0c6.7-6.7,13.3-13.3,20-20c0.3-0.3,0.5-0.5,0.7-0.8
+		C157.4,104.9,156.7,102.5,154.6,101.8z"/>
+	<path class="st0" d="M12.1,121.3c0-24.8,0-49.5,0-74.2c46,0,92,0,138,0c0,10.4,0,20.6,0,30.4c4.1,2.3,8,4.4,11.9,6.6
+		c0,0,0.1-0.2,0.1-0.3c0-21.5,0.1-43.1,0-64.6c0-5.5-4.2-10.1-9.6-11.2c-0.9-0.2-1.9-0.3-2.8-0.3c-5.4,0-10.7,0-16.1,0
+		c0,4.1,0,8,0,12.1c5.6,0,11,0,16.4,0c0,7.2,0,14.2,0,21.2c-46,0-91.9,0-137.9,0c0-7.1,0-14.1,0-21.3c6.1,0,12,0,18,0
+		c0-4.1,0-7.9,0-12c-6,0-11.7,0-17.5,0C5.2,7.6,0,12.7,0,20.2c0,33.5,0,67.1,0,100.6c0,7.2,5.2,12.4,12.5,12.4c29.9,0,59.8,0,89.7,0
+		c0.5,0,0.9,0,1.3-0.1c-1.4-4-2.8-7.9-4.3-12C70.3,121.3,41.2,121.3,12.1,121.3z"/>
+	<path class="st0" d="M137.6,82.1c-17.7-0.2-32.3,14.4-32.4,32.2c-0.1,17.9,14.3,32.6,32.1,32.7c17.8,0.1,32.6-14.3,32.8-31.9
+		C170.3,96.8,155.9,82.2,137.6,82.1z M137.6,141c-14.5,0-26.5-11.9-26.5-26.5c0-14.5,11.9-26.6,26.4-26.6
+		c14.5,0,26.7,11.8,26.7,26.2C164.2,129.1,152.5,141,137.6,141z"/>
+	<path class="st0" d="M72.6,7.7c-8,0-15.9,0-23.9,0c0,3.9,0,7.7,0,11.8c8,0,15.9,0,23.9,0C72.6,15.5,72.6,11.6,72.6,7.7z"/>
+	<path class="st0" d="M115,7.7c-8,0-15.9,0-23.9,0c0,4.1,0,7.9,0,11.7c8.1,0,16,0,23.9,0C115,15.4,115,11.6,115,7.7z"/>
+	<path class="st0" d="M43.5,32.3c2.5-2.4,2.5-6.2-0.1-8.6c-0.9-0.8-1.1-1.7-1.1-2.8c0-2.8,0-5.5,0-8.3c0-3.2,0.1-6.3,0-9.5
+		c-0.1-2.4-2.2-3.8-4.2-2.8c-1.4,0.7-1.8,1.8-1.7,3.3c0,5.8,0.1,11.6,0,17.4c0,0.9-0.5,1.9-1.1,2.5c-2.4,2.5-2.6,6.1-0.3,8.5
+		C37.3,34.5,41.1,34.6,43.5,32.3z"/>
+	<path class="st0" d="M86.1,32.1c2.4-2.5,2.2-6.1-0.3-8.6c-0.5-0.5-0.9-1.5-1-2.2c-0.1-2.9,0-5.8,0-8.7h0c0-3,0-5.9,0-8.9
+		c0-2.3-1.1-3.7-2.9-3.7c-1.8,0-3,1.4-3,3.8c0,5.8,0,11.6,0,17.4c0,0.8-0.5,1.8-1,2.4c-2.5,2.6-2.6,6.2-0.2,8.6
+		C80,34.6,83.8,34.5,86.1,32.1z"/>
+	<path class="st0" d="M128.1,32.5c2.4-2,3.1-5.7,0.9-7.9c-1.8-1.8-1.8-3.8-1.8-6c0-2.1,0-4.2,0-6.2c0-2.9,0-5.8,0-8.7
+		c0-2.3-1.1-3.7-2.9-3.7c-1.8-0.1-3,1.4-3,3.7c0,5.7,0,11.4,0,17c0,1.3-0.3,2.2-1.3,3.1c-2.4,2.2-2.3,5.8-0.1,8.2
+		C122.1,34.4,125.6,34.6,128.1,32.5z"/>
+	<path class="st0" d="M57.6,71.1c3.3-0.1,6-2.9,5.9-6.1c-0.1-3.3-2.9-6-6.2-5.9c-3.2,0.1-5.8,2.8-5.8,6
+		C51.6,68.4,54.4,71.2,57.6,71.1z"/>
+	<path class="st0" d="M81.9,71.1c3.2,0,5.9-2.7,6-5.9c0.1-3.2-2.7-6.1-5.9-6.1c-3.3,0-6,2.7-6.1,6C75.8,68.4,78.6,71.1,81.9,71.1z"
+		/>
+	<path class="st0" d="M112.1,65.2c0-3.3-2.7-6-6-6.1c-3.2,0-5.9,2.7-6,5.8c-0.1,3.2,2.6,6.1,5.9,6.1C109.2,71.2,112,68.5,112.1,65.2
+		z"/>
+	<path class="st0" d="M124.4,65.1c0,3.3,2.7,6,6,6.1c3.3,0,6-2.8,6-6c0-3.3-2.8-6-6.1-6C127.1,59.2,124.4,61.9,124.4,65.1z"/>
+	<path class="st0" d="M39.3,84.8c0-3.3-2.8-6-6.1-6c-3.2,0-5.9,2.7-5.9,5.9c0,3.3,2.7,6.1,6,6.1C36.5,90.9,39.3,88.1,39.3,84.8z"/>
+	<path class="st0" d="M57.6,78.9c-3.2,0-5.9,2.7-6,5.9c-0.1,3.3,2.6,6.1,5.9,6.1c3.2,0.1,6.1-2.7,6.1-6
+		C63.6,81.6,60.8,78.9,57.6,78.9z"/>
+	<path class="st0" d="M82,78.9c-3.3-0.1-6.1,2.6-6.1,5.9c-0.1,3.3,2.7,6.1,5.9,6.1c3.2,0,5.9-2.6,6.1-5.8C88,81.8,85.3,79,82,78.9z"
+		/>
+	<path class="st0" d="M106.2,90.8c3.3-0.1,6-2.8,5.9-6.1c-0.1-3.3-2.9-6-6.1-5.9c-3.2,0.1-5.8,2.8-5.8,6
+		C100.1,88.1,102.9,90.9,106.2,90.8z"/>
+	<path class="st0" d="M33.2,110.6c3.3,0,6-2.7,6.1-6c0-3.2-2.7-6-6-6c-3.2,0-5.9,2.7-6,5.9C27.2,107.7,30,110.5,33.2,110.6z"/>
+	<path class="st0" d="M51.6,104.6c0,3.3,2.8,6,6.1,6c3.2,0,5.9-2.7,5.9-5.9c0-3.3-2.7-6.1-6-6.1C54.3,98.6,51.6,101.3,51.6,104.6z"
+		/>
+	<path class="st0" d="M75.8,104.5c-0.1,3.3,2.7,6.1,5.9,6.1c3.3,0,6-2.7,6.1-6c0-3.3-2.8-6-6-6C78.6,98.6,75.9,101.3,75.8,104.5z"/>
+</g>
+</svg>
