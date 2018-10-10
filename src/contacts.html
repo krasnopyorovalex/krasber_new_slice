@@ -75,7 +75,7 @@
                             </li>
                             <li><a href="#">Портфолио</a></li>
                             <li><a href="/blog.html">Блог</a></li>
-                            <li><a href="/contacts.html">Контакты</a></li>
+                            <li class="active"><a href="/contacts.html">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="phone__email">
@@ -89,22 +89,87 @@
         </div>
     </header>
 
-    <section class="not__found">
+    <section class="header contact__form-box">
         <div class="bg__box"></div>
         <div class="container">
             <div class="row">
-                <div class="col-9">
-                    <div class="not__found-box">
-                        <img src="./img/in_404.svg" alt="не найдено">
-                        <div>УПС</div>
-                        <div>404</div>
-                        <span>Страница не найдена</span>
+                <div class="col-10">
+                    <div class="contact__form">
+                        <div class="wrap">
+                            <div class="desc">
+                                <div class="as__h1">Заказать услугу</div>
+                                <p>Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</p>
+                            </div>
+                            <div class="form__box">
+                                <form action="#" class="order__service" method="post">
+                                    <div class="services__list-block single__block">
+                                        <select name="service" id="service__field">
+                                            <option selected disabled>Не выбрано</option>
+                                            <optgroup label="Создание сайта">
+                                                <option>Индивидуальный проект</option>
+                                                <option>Сайт-визитка</option>
+                                                <option>Сайт-каталог</option>
+                                            </optgroup>
+                                            <optgroup label="Техническая поддержка">
+                                                <option>Домен-хостинг</option>
+                                                <option>SEO-аудит</option>
+                                                <option>юзабилити аудит</option>
+                                            </optgroup>
+                                        </select>
+                                        <i class="select__arrow"></i>
+                                    </div>
+                                    <div class="single__block">
+                                        <input type="text" name="name" placeholder="Ваше имя" autocomplete="off">
+                                    </div>
+                                    <div class="single__block">
+                                        <input type="text" name="phone" placeholder="Номер телефона" autocomplete="off">
+                                    </div>
+                                    <div class="single__block">
+                                        <input type="email" name="email" placeholder="Email" autocomplete="off">
+                                    </div>
+                                    <div class="single__block">
+                                        <input type="submit" value="Отправить">
+                                    </div>
+                                    <div class="single__block agree__block">
+                                        <input type="checkbox" name="agree" id="i_agree" value="1" checked>
+                                        <label for="i_agree">Отправляя заяявку  вы соглашаетесь с <a href="#">правилами офферты</a></label>
+                                    </div>
+                                </form>
+                                <!-- /.order__service -->
+                            </div>
+                        </div>
                     </div>
-                    <a href="/" class="btn_404">Перейти назад</a>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li>Создание сайта</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <h1>Контакты</h1>
+
+                    <p>Под понятием SEO-аудит сайта подразумевается поэтапная проверка интернет-сайта на отсутствие различных отклонений (технических) и соответствие требованиям ПС (поисковым систем). К сожалению, большинство владельцев интернет-магазинов, блогов, лэндингов не знают, что такое аудит сайта, в результате чего их продукт всячески страдает от различных недочетов и ошибок в архитектуре, дизайне, неудобности.</p>
+                    <p>Следует понимать, что на первом этапе работы с интернет-продуктом следует всегда проводить аудит веб-сайта, так как это поможет понять его фактическое положение в ПС, дабы в дальнейшем подготовить соответствующую стратегию развития и расширения целевой аудитории. Такой анализ сайта рекомендуется производить периодически, так как на ресурсе может произойти смена структуры или появиться технические ошибки, а также не стоит забывать и о смене алгоритмов поисковых систем, которым обязательно нужно соответствовать, чтобы находится на первой странице выдачи.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <section class="footer__contacts">
         <div class="container">

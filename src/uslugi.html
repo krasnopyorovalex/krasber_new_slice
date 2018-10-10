@@ -38,7 +38,7 @@
                     <!-- /.logo -->
                     <nav>
                         <ul>
-                            <li class="has__child">
+                            <li class="has__child active">
                                 <a href="/uslugi.html">Услуги</a>
                                 <ul>
                                     <li>
@@ -74,8 +74,8 @@
                                 </ul>
                             </li>
                             <li><a href="#">Портфолио</a></li>
-                            <li><a href="#">Блог</a></li>
-                            <li class="active"><a href="#">Контакты</a></li>
+                            <li><a href="/blog.html">Блог</a></li>
+                            <li><a href="/contacts.html">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="phone__email">
@@ -93,13 +93,19 @@
         <div class="bg__box"></div>
         <div class="container">
             <div class="row">
-                <div class="body col-10">
-                    <figure>
-                        <img src="./img/uslugi_image.png" alt="">
-                    </figure>
-                    <div class="text">
-                        <h1>Сопровождение сайта</h1>
-                        <p>Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</p>
+                <div class="body col-10 green">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="text">
+                                <h1>Сопровождение сайта</h1>
+                                <p>Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</p>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <figure>
+                                <img src="./img/in_razrabotka.svg" alt="">
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -410,43 +416,47 @@
     <section class="footer__contacts">
         <div class="container">
             <div class="row">
-                <div class="footer__contacts-text">
-                    Звоните, пишите, договоримся!
-                </div>
-                <div class="footer__contacts-messengers">
-                    <div class="phone"><a href="#">8 (978) 754-74-99</a></div>
-                    <div class="email"><a href="#">info@krasber.ru</a></div>
-                    <div class="f__icons">
-                        <a href="#">
-                            <svg class="icon telegram">
-                                <use xlink:href="./img/symbols.svg#telegram"></use>
-                            </svg>
-                        </a>
-                        <a href="#">
-                            <svg class="icon viber">
-                                <use xlink:href="./img/symbols.svg#viber"></use>
-                            </svg>
-                        </a>
-                        <a href="#">
-                            <svg class="icon skype">
-                                <use xlink:href="./img/symbols.svg#skype"></use>
-                            </svg>
-                        </a>
-                        <a href="#">
-                            <svg class="icon insta">
-                                <use xlink:href="./img/symbols.svg#insta"></use>
-                            </svg>
-                        </a>
-                        <a href="#">
-                            <svg class="icon facebook">
-                                <use xlink:href="./img/symbols.svg#facebook"></use>
-                            </svg>
-                        </a>
-                        <a href="#">
-                            <svg class="icon vk">
-                                <use xlink:href="./img/symbols.svg#vk"></use>
-                            </svg>
-                        </a>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-6 footer__contacts-text">
+                            Звоните, пишите, договоримся!
+                        </div>
+                        <div class="col-6 footer__contacts-messengers">
+                            <div class="phone"><a href="#">8 (978) 754-74-99</a></div>
+                            <div class="email"><a href="#">info@krasber.ru</a></div>
+                            <div class="f__icons">
+                                <a href="#">
+                                    <svg class="icon telegram">
+                                        <use xlink:href="./img/symbols.svg#telegram"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="icon viber">
+                                        <use xlink:href="./img/symbols.svg#viber"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="icon skype">
+                                        <use xlink:href="./img/symbols.svg#skype"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="icon insta">
+                                        <use xlink:href="./img/symbols.svg#insta"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="icon facebook">
+                                        <use xlink:href="./img/symbols.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg class="icon vk">
+                                        <use xlink:href="./img/symbols.svg#vk"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -455,54 +465,58 @@
 
     <footer>
         <div class="container">
-            <div class="line"></div>
-            <div class="list__columns">
-                <div class="col__logo">
-                    <img src="./img/logo_green.svg" class="logo__green" alt="logo">
-                    <div class="copyright">
-                        2017 - 2018 © Создание и раскрутка сайтов. ООО «Красбер», ИНН 9106013479
+            <div class="row">
+                <div class="col-10">
+                    <div class="line"></div>
+                    <div class="row list__columns">
+                        <div class="col-4 col__logo">
+                            <img src="./img/logo_green.svg" class="logo__green" alt="logo">
+                            <div class="copyright">
+                                2017 - 2018 © Создание и раскрутка сайтов. ООО «Красбер», ИНН 9106013479
+                            </div>
+                        </div>
+                        <div class="col-2 col__service">
+                            <div class="title">Создание<br/> сайта</div>
+                            <ul>
+                                <li><a href="#">индивидуальный проект</a></li>
+                                <li><a href="#">сайт-визитка</a></li>
+                                <li><a href="#">сайт-каталог</a></li>
+                                <li><a href="#">интернет-магазин</a></li>
+                                <li><a href="#">корпоративный сайт</a></li>
+                                <li><a href="#">редизайн сайта</a></li>
+                                <li><a href="#">ip</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2 col__service">
+                            <div class="title">Техническая поддержка</div>
+                            <ul>
+                                <li><a href="#">домен-хотинг</a></li>
+                                <li><a href="#">seo-аудит</a></li>
+                                <li><a href="#">юзабилити аудит</a></li>
+                                <li><a href="#">разовая оптимизация</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2 col__service">
+                            <div class="title">Сопровождение сайта</div>
+                            <ul>
+                                <li><a href="#">seo-продвижение</a></li>
+                                <li><a href="#">контекстная реклама</a></li>
+                                <li><a href="#">SMM</a></li>
+                                <li><a href="#">дизайн-сопровождение</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2 col__nav">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Главная</a></li>
+                                    <li><a href="#">Услуги</a></li>
+                                    <li><a href="#">Портфолио</a></li>
+                                    <li><a href="#">Блог</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
-                </div>
-                <div class="col__service">
-                    <div class="title">Создание<br/> сайта</div>
-                    <ul>
-                        <li><a href="#">индивидуальный проект</a></li>
-                        <li><a href="#">сайт-визитка</a></li>
-                        <li><a href="#">сайт-каталог</a></li>
-                        <li><a href="#">интернет-магазин</a></li>
-                        <li><a href="#">корпоративный сайт</a></li>
-                        <li><a href="#">редизайн сайта</a></li>
-                        <li><a href="#">ip</a></li>
-                    </ul>
-                </div>
-                <div class="col__service">
-                    <div class="title">Техническая поддержка</div>
-                    <ul>
-                        <li><a href="#">домен-хотинг</a></li>
-                        <li><a href="#">seo-аудит</a></li>
-                        <li><a href="#">юзабилити аудит</a></li>
-                        <li><a href="#">разовая оптимизация</a></li>
-                    </ul>
-                </div>
-                <div class="col__service">
-                    <div class="title">Сопровождение сайта</div>
-                    <ul>
-                        <li><a href="#">seo-продвижение</a></li>
-                        <li><a href="#">контекстная реклама</a></li>
-                        <li><a href="#">SMM</a></li>
-                        <li><a href="#">дизайн-сопровождение</a></li>
-                    </ul>
-                </div>
-                <div class="col__nav">
-                    <nav>
-                        <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Портфолио</a></li>
-                            <li><a href="#">Блог</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
