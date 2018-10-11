@@ -3,8 +3,8 @@ const smartGridConfig = require('smart-grid');
 const settings = {
     outputStyle: 'styl',
     columns: 12,
-    mobileFirst: true,
-    offset: '30px',
+    mobileFirst: false,
+    offset: '2%',
     container: {
         maxWidth: '1280px', /* max-width оn very large screen */
         fields: '30px' /* side fields */
