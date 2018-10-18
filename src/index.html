@@ -30,6 +30,9 @@
         <div class="sticky__menu">
             <div class="container">
                 <div class="top__line">
+                    <svg class="icon menu">
+                        <use xlink:href="../img/symbols.svg#menu"></use>
+                    </svg>
                     <div class="logo">
                         <a href="/">
                             <img src="./img/logo_white.svg" data-green-logo="./img/logo_green.svg" alt="logo">
@@ -73,13 +76,18 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="/portfolio.html">Портфолио</a></li>
                             <li><a href="/blog.html">Блог</a></li>
                             <li class="active"><a href="/contacts.html">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="phone__email">
-                        <a href="tel:89787547499" title="Позвонить">8 (978) 754-74-99</a>
+                        <a href="tel:89787547499" title="Позвонить" class="phone__link">
+                            <span>8 (978) 754-74-99</span>
+                            <svg class="phone">
+                                <use xlink:href="./img/symbols.svg#phone"></use>
+                            </svg>
+                        </a>
                         <a href="mailto:info@krasber.ru" title="Написать на почту">info@krasber.ru</a>
                     </div>
                     <!-- /.phone__email -->
@@ -118,12 +126,12 @@
 
                     <div class="services__list">
                         <div class="services__list-item">
-                            <div class="name">Создание сайта</div>
+                            <a href="#" class="name">Создание сайта</a>
                             <svg class="icon arrow_down">
                                 <use xlink:href="./img/symbols.svg#arrow_down"></use>
                             </svg>
-                            <div class="desc">Сайт - визитная карточка Вашего бизнеса на просторах интернета. Источник: https://krasber.ru/ - Читать подробнее</div>
                             <div class="body">
+                                <div class="desc">Сайт - визитная карточка Вашего бизнеса на просторах интернета. Источник: https://krasber.ru/ - Читать подробнее</div>
                                 <ul>
                                     <li><a href="#">индивидуальный проект</a></li>
                                     <li><a href="#">сайт-визитка</a></li>
@@ -132,45 +140,46 @@
                                     <li><a href="#">корпоративный сайт</a></li>
                                     <li><a href="#">редизайн сайта</a></li>
                                 </ul>
-                            </div>
-                            <div class="btn__more">
-                                <a href="#" class="btn green">ПОДРОБНЕЕ</a>
+                                <div class="btn__more">
+                                    <a href="#" class="btn green">ПОДРОБНЕЕ</a>
+                                </div>
                             </div>
                         </div>
                         <div class="services__list-item">
-                            <div class="name">Техническая поддержка</div>
+                            <a href="#" class="name">Техническая поддержка</a>
                             <svg class="icon arrow_down">
                                 <use xlink:href="./img/symbols.svg#arrow_down"></use>
                             </svg>
-                            <div class="desc">Сайт - визитная карточка Вашего бизнеса на просторах интернета. Источник: https://krasber.ru/ - Читать подробнее</div>
+
                             <div class="body">
+                                <div class="desc">Сайт - визитная карточка Вашего бизнеса на просторах интернета. Источник: https://krasber.ru/ - Читать подробнее</div>
                                 <ul>
                                     <li><a href="#">домен-хотинг</a></li>
                                     <li><a href="#">seo-аудит</a></li>
                                     <li><a href="#">юзабилити аудит</a></li>
                                     <li><a href="#">разовая оптимизация</a></li>
                                 </ul>
-                            </div>
-                            <div class="btn__more">
-                                <a href="#" class="btn green">ПОДРОБНЕЕ</a>
+                                <div class="btn__more">
+                                    <a href="#" class="btn green">ПОДРОБНЕЕ</a>
+                                </div>
                             </div>
                         </div>
                         <div class="services__list-item">
-                            <div class="name">Сопровождение</div>
+                            <a href="#" class="name">Сопровождение</a>
                             <svg class="icon arrow_down">
                                 <use xlink:href="./img/symbols.svg#arrow_down"></use>
                             </svg>
-                            <div class="desc">Сайт - визитная карточка Вашего бизнеса на просторах интернета. Источник: https://krasber.ru/ - Читать подробнее</div>
                             <div class="body">
+                                <div class="desc">Сайт - визитная карточка Вашего бизнеса на просторах интернета. Источник: https://krasber.ru/ - Читать подробнее</div>
                                 <ul>
                                     <li><a href="#">seo-продвижение</a></li>
                                     <li><a href="#">контекстная реклама</a></li>
                                     <li><a href="#">SMM</a></li>
                                     <li><a href="#">дизайн-сопровождение</a></li>
                                 </ul>
-                            </div>
-                            <div class="btn__more">
-                                <a href="#" class="btn green">ПОДРОБНЕЕ</a>
+                                <div class="btn__more">
+                                    <a href="#" class="btn green">ПОДРОБНЕЕ</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -332,7 +341,7 @@
     </section>
 
     <section class="portfolio">
-        <div class="bg__box"></div>
+        <div class="bg__box-section"></div>
         <div class="container">
             <div class="row">
                 <div class="col-10">
@@ -342,96 +351,111 @@
                     <div class="portfolio__list">
 
                         <div class="portfolio__list-item">
-                            <figure>
-                                <img src="./img/portfolio-01.jpg" alt="alt" title="Медведь и слон">
-                            </figure>
+                            <div class="bg__item peach"></div>
+                            <div class="image__preview">
+                                <figure>
+                                    <img src="./img/portfolio_preview-01.png" alt="alt" title="Медведь и слон">
+                                </figure>
+                            </div>
                             <div class="body">
-                                <div class="name">
-                                    <a href="/portfolio-item.html">Создание лэндинга для салона Misslisse</a>
-                                </div>
-                                <div class="desc">
-                                    <ul>
-                                        <li>- мобильная версия</li>
-                                        <li>- доработка новых модулей</li>
-                                        <li>- разработка рекламно кампании</li>
-                                    </ul>
-                                </div>
-                                <div class="tags">
-                                    <span>контекст</span>
-                                    <span>seo</span>
-                                </div>
-                                <div class="link__more">
-                                    <div class="link__more-text">
-                                        <a href="/portfolio-item.html">ПОДРОБНЕЕ</a>
+                                <div class="bg__box">
+                                    <div class="name">
+                                        <a href="/portfolio-item.html">Создание лэндинга для салона Misslisse</a>
                                     </div>
-                                    <div class="link__more-icon">
-                                        <svg class="icon link">
-                                            <use xlink:href="./img/symbols.svg#link"></use>
-                                        </svg>
+                                    <div class="desc">
+                                        <ul>
+                                            <li>- мобильная версия</li>
+                                            <li>- доработка новых модулей</li>
+                                            <li>- разработка рекламно кампании</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tags">
+                                        <span>контекст</span>
+                                        <span>seo</span>
+                                    </div>
+                                    <div class="link__more">
+                                        <div class="link__more-text">
+                                            <a href="/portfolio-item.html">ПОДРОБНЕЕ</a>
+                                        </div>
+                                        <div class="link__more-icon">
+                                            <svg class="icon link">
+                                                <use xlink:href="./img/symbols.svg#link"></use>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="portfolio__list-item">
-                            <figure>
-                                <img src="./img/portfolio-02.jpg" alt="alt" title="SEO-positions">
-                            </figure>
+                            <div class="bg__item"></div>
+                            <div class="image__preview">
+                                <figure>
+                                    <img src="./img/portfolio_preview-02.png" alt="alt" title="SEO-positions">
+                                </figure>
+                            </div>
                             <div class="body">
-                                <div class="name">
-                                    <a href="/portfolio-item.html">Создание лэндинга для салона Misslisse</a>
-                                </div>
-                                <div class="desc">
-                                    <ul>
-                                        <li>- мобильная версия</li>
-                                        <li>- доработка новых модулей</li>
-                                        <li>- разработка рекламно кампании</li>
-                                    </ul>
-                                </div>
-                                <div class="tags">
-                                    <span>контекст</span>
-                                    <span>seo</span>
-                                </div>
-                                <div class="link__more">
-                                    <div class="link__more-text">
-                                        <a href="/portfolio-item.html">ПОДРОБНЕЕ</a>
+                                <div class="bg__box">
+                                    <div class="name">
+                                        <a href="/portfolio-item.html">Создание лэндинга для салона Misslisse</a>
                                     </div>
-                                    <div class="link__more-icon">
-                                        <svg class="icon link">
-                                            <use xlink:href="./img/symbols.svg#link"></use>
-                                        </svg>
+                                    <div class="desc">
+                                        <ul>
+                                            <li>- мобильная версия</li>
+                                            <li>- доработка новых модулей</li>
+                                            <li>- разработка рекламно кампании</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tags">
+                                        <span>контекст</span>
+                                        <span>seo</span>
+                                    </div>
+                                    <div class="link__more">
+                                        <div class="link__more-text">
+                                            <a href="/portfolio-item.html">ПОДРОБНЕЕ</a>
+                                        </div>
+                                        <div class="link__more-icon">
+                                            <svg class="icon link">
+                                                <use xlink:href="./img/symbols.svg#link"></use>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="portfolio__list-item">
-                            <figure>
-                                <img src="./img/portfolio-03.jpg" alt="alt" title="CRM-система">
-                            </figure>
+                            <div class="bg__item grey"></div>
+                            <div class="image__preview">
+                                <figure>
+                                    <img src="./img/portfolio_preview-03.png" alt="alt" title="CRM-система">
+                                </figure>
+                            </div>
                             <div class="body">
-                                <div class="name">
-                                    <a href="/portfolio-item.html">Создание лэндинга для салона Misslisse</a>
-                                </div>
-                                <div class="desc">
-                                    <ul>
-                                        <li>- мобильная версия</li>
-                                        <li>- доработка новых модулей</li>
-                                        <li>- разработка рекламно кампании</li>
-                                    </ul>
-                                </div>
-                                <div class="tags">
-                                    <span>контекст</span>
-                                    <span>seo</span>
-                                </div>
-                                <div class="link__more">
-                                    <div class="link__more-text">
-                                        <a href="/portfolio-item.html">ПОДРОБНЕЕ</a>
+                                <div class="bg__box">
+                                    <div class="name">
+                                        <a href="/portfolio-item.html">Создание лэндинга для салона Misslisse</a>
                                     </div>
-                                    <div class="link__more-icon">
-                                        <svg class="icon link">
-                                            <use xlink:href="./img/symbols.svg#link"></use>
-                                        </svg>
+                                    <div class="desc">
+                                        <ul>
+                                            <li>- мобильная версия</li>
+                                            <li>- доработка новых модулей</li>
+                                            <li>- разработка рекламно кампании</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tags">
+                                        <span>контекст</span>
+                                        <span>seo</span>
+                                    </div>
+                                    <div class="link__more">
+                                        <div class="link__more-text">
+                                            <a href="/portfolio-item.html">ПОДРОБНЕЕ</a>
+                                        </div>
+                                        <div class="link__more-icon">
+                                            <svg class="icon link">
+                                                <use xlink:href="./img/symbols.svg#link"></use>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
