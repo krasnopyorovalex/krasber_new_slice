@@ -27,9 +27,12 @@
     </div>
 
     <header>
-        <div class="sticky__menu-always">
+        <div class="sticky__menu sticky__menu-always">
             <div class="container">
                 <div class="top__line">
+                    <svg class="icon menu">
+                        <use xlink:href="../img/symbols.svg#menu"></use>
+                    </svg>
                     <div class="logo">
                         <a href="/">
                             <img src="./img/logo_green.svg" alt="logo">
@@ -39,10 +42,10 @@
                     <nav>
                         <ul>
                             <li class="has__child">
-                                <a href="/uslugi.html">Услуги</a>
+                                <a href="/#">Услуги</a>
                                 <ul>
                                     <li>
-                                        <div>Создание сайта</div>
+                                        <a href="#">Создание сайта</a>
                                         <ul>
                                             <li><a href="/usluga.html">индивидуальный проект</a></li>
                                             <li><a href="/usluga.html">сайт-визитка</a></li>
@@ -54,7 +57,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <div>Техническая поддержка</div>
+                                        <a href="#">Техническая поддержка</a>
                                         <ul>
                                             <li><a href="#">домен-хотинг</a></li>
                                             <li><a href="#">seo-аудит</a></li>
@@ -63,7 +66,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <div>Сопровождение сайта</div>
+                                        <a href="#">Сопровождение сайта</a>
                                         <ul>
                                             <li><a href="#">seo-продвижение</a></li>
                                             <li><a href="#">контекстная реклама</a></li>
@@ -73,13 +76,20 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="/portfolio.html">Портфолио</a></li>
+                            <li><a href="/portfolio.html">Портфолио</a></li>
                             <li><a href="/blog.html">Блог</a></li>
-                            <li><a href="/contacts.html">Контакты</a></li>
+                            <li class="active"><a href="/contacts.html">Контакты</a></li>
                         </ul>
                     </nav>
+                    <a href="tel:89787547499" class="phone__svg">
+                        <svg class="phone">
+                            <use xlink:href="./img/symbols.svg#phone"></use>
+                        </svg>
+                    </a>
                     <div class="phone__email">
-                        <a href="tel:89787547499" title="Позвонить">8 (978) 754-74-99</a>
+                        <a href="tel:89787547499" title="Позвонить" class="phone__link">
+                            <span>8 (978) 754-74-99</span>
+                        </a>
                         <a href="mailto:info@krasber.ru" title="Написать на почту">info@krasber.ru</a>
                     </div>
                     <!-- /.phone__email -->
@@ -200,7 +210,7 @@
                             <label for="i_agree2">Отправляя заяявку  вы соглашаетесь с <a href="#" title="Перейти на страницу описания">правилами офферты</a></label>
                         </div>
                         <div class="single__block submit__block">
-                            <input type="submit" value="Отправить">
+                            <button type="submit">Отправить</button>
                         </div>
                     </form>
                 </div>
@@ -270,7 +280,7 @@
                                 2017 - 2018 © Создание и раскрутка сайтов. ООО «Красбер», ИНН 9106013479
                             </div>
                         </div>
-                        <div class="col-2 col__service">
+                        <div class="col__service">
                             <div class="title">Создание<br/> сайта</div>
                             <ul>
                                 <li><a href="#">индивидуальный проект</a></li>
@@ -282,7 +292,7 @@
                                 <li><a href="#">ip</a></li>
                             </ul>
                         </div>
-                        <div class="col-2 col__service">
+                        <div class="col__service">
                             <div class="title">Техническая поддержка</div>
                             <ul>
                                 <li><a href="#">домен-хотинг</a></li>
@@ -291,7 +301,7 @@
                                 <li><a href="#">разовая оптимизация</a></li>
                             </ul>
                         </div>
-                        <div class="col-2 col__service">
+                        <div class="col__service">
                             <div class="title">Сопровождение сайта</div>
                             <ul>
                                 <li><a href="#">seo-продвижение</a></li>
@@ -300,7 +310,7 @@
                                 <li><a href="#">дизайн-сопровождение</a></li>
                             </ul>
                         </div>
-                        <div class="col-2 col__nav">
+                        <div class="col__nav">
                             <nav>
                                 <ul>
                                     <li><a href="#">Главная</a></li>
