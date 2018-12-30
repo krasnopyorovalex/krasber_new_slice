@@ -216,6 +216,13 @@
                     </article>
 
                     <div class="center">
+                        <ul class="pagination" role="navigation">
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        </ul>
                         <a href="/article.html" class="btn green">еще статьи</a>
                     </div>
                 </div>
@@ -232,8 +239,10 @@
                         <form action="#" class="subscribe" method="post">
                             <div class="single__block email__block">
                                 <input type="email" name="email" placeholder="Укажите ваш Email" autocomplete="off">
-                                <div class="info__message">
-                                    Нажимая кнопку подписаться, Вы даете согласие на обработку персональных данных
+                                <div class="single__block agree__block info__message">
+                                    <input type="checkbox" name="agree" id="i_agree" value="1" checked="">
+                                    <label for="i_agree">Оставляя заявку, вы соглашаетесь на <a href="http://krasber-new.ld/personal-data" target="_blank" title="Перейти на страницу описания">обработку персональных данных</a></label>
+                                    <p class="error">Согласитесь на обработку персональных данных</p>
                                 </div>
                             </div>
                             <div class="single__block">

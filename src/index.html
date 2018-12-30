@@ -35,14 +35,15 @@
                     </svg>
                     <div class="logo">
                         <a href="/">
-                            <img src="./img/logo_white.svg" data-green-logo="./img/logo_green.svg" alt="logo">
+                            <img class="desktop__logo" src="./img/logo_white.svg" data-green-logo="./img/logo_green.svg" alt="logo">
+                            <img class="mobile__logo" src="./img/logo_green.svg" alt="logo">
                         </a>
                     </div>
                     <!-- /.logo -->
                     <nav>
                         <ul>
                             <li class="has__child">
-                                <a href="/uslugi.html">Услуги</a>
+                                <a href="#">Услуги</a>
                                 <ul>
                                     <li>
                                         <a href="/uslugi.html">Создание сайта</a>
@@ -127,7 +128,7 @@
                     <div class="as__h1">Наши услуги</div>
 
                     <div class="services__list">
-                        <div class="services__list-item">
+                        <div class="services__list-item is__open">
                             <a href="#" class="name">Создание сайта</a>
                             <svg class="icon arrow_down">
                                 <use xlink:href="./img/symbols.svg#arrow_down"></use>
@@ -201,7 +202,7 @@
                                 <p>Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</p>
                             </div>
                             <div class="form__box">
-                                <form action="#" class="order__service" method="post">
+                                <form action="#" id="order__service-form" class="order__service" method="post">
                                     <div class="services__list-block single__block">
                                         <select name="service" id="service__field">
                                             <option selected disabled>Не выбрано</option>
@@ -227,12 +228,13 @@
                                     <div class="single__block">
                                         <input type="email" name="email" placeholder="Email" autocomplete="off">
                                     </div>
-                                    <div class="single__block submit__block is__sent">
+                                    <div class="single__block submit__block">
                                         <button type="submit">Отправить</button>
                                     </div>
                                     <div class="single__block agree__block">
                                         <input type="checkbox" name="agree" id="i_agree" value="1" checked>
                                         <label for="i_agree">Отправляя заяявку  вы соглашаетесь с <a href="#">правилами офферты</a></label>
+                                        <p class="error">Отметьте, пожалуйста</p>
                                     </div>
                                 </form>
                                 <!-- /.order__service -->
@@ -349,6 +351,7 @@
                 <div class="col-10">
                     <div class="step">04</div>
                     <div class="as__h1">Портфолио</div>
+                    <div class="info">Работы нашей веб-студии, разработанные сайты, полезные кейсы.</div>
 
                     <div class="portfolio__list">
 
@@ -479,6 +482,7 @@
                 <div class="col-10">
                     <div class="step">05</div>
                     <div class="as__h1">Мы работаем</div>
+                    <div class="info">Инструменты, которые мы используем для анализа и увеличения эффективности работы сайта.</div>
                     <div class="we__work-list">
                         <div class="we__work-list-item">
                             <img src="./img/we_work-01.jpg" alt="">
@@ -618,7 +622,7 @@
                             </div>
                         </div>
                         <div class="col__service">
-                            <div class="title">Создание<br/> сайта</div>
+                            <div class="title">Создание сайта</div>
                             <ul>
                                 <li><a href="#">индивидуальный проект</a></li>
                                 <li><a href="#">сайт-визитка</a></li>
@@ -630,7 +634,7 @@
                             </ul>
                         </div>
                         <div class="col__service">
-                            <div class="title">Техническая поддержка</div>
+                            <div class="title">Сопровождение сайта</div>
                             <ul>
                                 <li><a href="#">домен-хотинг</a></li>
                                 <li><a href="#">seo-аудит</a></li>
@@ -639,7 +643,7 @@
                             </ul>
                         </div>
                         <div class="col__service">
-                            <div class="title">Сопровождение сайта</div>
+                            <div class="title">Техническая поддержка</div>
                             <ul>
                                 <li><a href="#">seo-продвижение</a></li>
                                 <li><a href="#">контекстная реклама</a></li>
@@ -663,7 +667,11 @@
             </div>
         </div>
     </footer>
-
+    <div class="notify">
+        <div>
+            Спасибо! Ваша зявка отправлена и находится в обработке.
+        </div>
+    </div>
     <script src="js/app.min.js"></script>
     </body>
 </html>
