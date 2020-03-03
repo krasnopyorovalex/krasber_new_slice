@@ -131,10 +131,10 @@
     </configuration>
     <list>
       <item itemvalue="Gulp.js.browserSync" />
-      <item itemvalue="Gulp.js.js" />
-      <item itemvalue="Gulp.js.watch" />
       <item itemvalue="Gulp.js.build" />
       <item itemvalue="Gulp.js.default" />
+      <item itemvalue="Gulp.js.js" />
+      <item itemvalue="Gulp.js.watch" />
     </list>
     <recent_temporary>
       <list>
