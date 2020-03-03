@@ -2,229 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9c0c9a-907f-4d51-bd96-9d17879407cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/seo-prodvizhenie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sanek.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sanek.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/yii2settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/jquery.3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo_green.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo_green.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/arrow_down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/arrow_down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/design.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/design.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/free_audit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/free_audit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/insta.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/kontekst.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/kontekst.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/oneseo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/oneseo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/razrabotka.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/razrabotka.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/redesign.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/redesign.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/seo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/seo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/skype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/skype.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/smm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/smm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/telegram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/viber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/viber.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons-svg/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/vk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprite.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/symbols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/symbols.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/portfolio-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seo-prodvizhenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/seo-prodvizhenie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/usluga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/usluga.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uslugi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/uslugi.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/prejs/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2438">
-              <caret line="106" column="107" selection-start-line="106" selection-start-column="107" selection-end-line="106" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/usluga.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="180" column="63" selection-start-line="180" selection-start-column="63" selection-end-line="180" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/precss/components.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/precss/section-why-we.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/precss/usluga.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2737">
-              <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>list__items</find>
-      <find>kata</find>
-      <find>fill=&quot;#37474F&quot;</find>
-      <find>main</find>
-      <find>-item2</find>
-      <find>price__table</find>
-      <find>.icon</find>
-      <find>sticky__menu</find>
-      <find>&lt;style&gt;.st0{fill:#00cc45}&lt;/style&gt;</find>
-      <find>class=&quot;st0&quot;</find>
-      <find>&lt;style&gt;.st0{fill:#c00}&lt;/style&gt;</find>
-      <find>popu</find>
-      <find>popup</find>
-      <find>callPopup</find>
-      <find>subscribe</find>
-      <find>var</find>
-      <find>$jscomp.polyfill</find>
-      <find>polyfill</find>
-      <find>item4</find>
-      <find>ul</find>
-      <find>is__open</find>
-      <find>filter__categories</find>
-      <find>tar</find>
-      <find>tariffs</find>
-      <find>style=&quot;width:311px;&quot;</find>
-      <find>style=&quot;width:312px;&quot;</find>
-      <find>faq</find>
-      <find>li</find>
-      <find>.type__two</find>
-      <find>type__two</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>/</replace>
-      <replace>as__h1</replace>
-      <replace>icon</replace>
-      <replace>size-xs</replace>
-      <replace>md</replace>
-      <replace>sm</replace>
-      <replace>img</replace>
-      <replace>let</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/prejs</dir>
-      <dir>$PROJECT_DIR$/src/precss</dir>
-    </dirStrings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/precss/css/sprite.css" />
-        <option value="$PROJECT_DIR$/src/precss/smart-grid.styl" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/css/app.min.css" />
-        <option value="$PROJECT_DIR$/src/precss/css/owl.carousel.min.styl" />
-        <option value="$PROJECT_DIR$/src/precss/css/owl.theme.default.min.styl" />
-        <option value="$PROJECT_DIR$/src/precss/breadcrumbs.styl" />
-        <option value="$PROJECT_DIR$/src/precss/blog.styl" />
-        <option value="$PROJECT_DIR$/src/precss/fonts.styl" />
-        <option value="$PROJECT_DIR$/smart-grid-config.js" />
-        <option value="$PROJECT_DIR$/src/precss/section-guestbook.styl" />
-        <option value="$PROJECT_DIR$/src/precss/404.styl" />
-        <option value="$PROJECT_DIR$/src/precss/moile-menu.styl" />
-        <option value="$PROJECT_DIR$/src/precss/sprite.styl" />
-        <option value="$PROJECT_DIR$/src/404.html" />
-        <option value="$PROJECT_DIR$/src/contacts.html" />
-        <option value="$PROJECT_DIR$/src/portfolio.html" />
-        <option value="$PROJECT_DIR$/src/precss/section-footer-contacts.styl" />
-        <option value="$PROJECT_DIR$/src/precss/section-we-work.styl" />
-        <option value="$PROJECT_DIR$/src/precss/footer.styl" />
-        <option value="$PROJECT_DIR$/src/precss/article.styl" />
-        <option value="$PROJECT_DIR$/src/article.html" />
-        <option value="$PROJECT_DIR$/src/precss/section-portfolio.styl" />
-        <option value="$PROJECT_DIR$/src/precss/section-order-form.styl" />
-        <option value="$PROJECT_DIR$/src/portfolio-item.html" />
-        <option value="$PROJECT_DIR$/src/precss/portfolio.styl" />
-        <option value="$PROJECT_DIR$/src/precss/css/lightbox.styl" />
-        <option value="$PROJECT_DIR$/src/img/logo_green.svg" />
-        <option value="$PROJECT_DIR$/src/precss/app.styl" />
-        <option value="$PROJECT_DIR$/src/precss/section-order-service-form.styl" />
-        <option value="$PROJECT_DIR$/src/precss/svg/symbols.svg" />
-        <option value="$PROJECT_DIR$/src/seo-prodvizhenie.html" />
-        <option value="$PROJECT_DIR$/src/precss/section-services-prices.styl" />
-        <option value="$PROJECT_DIR$/src/precss/mobile-menu.styl" />
-        <option value="$PROJECT_DIR$/src/img/symbols.svg" />
-        <option value="$PROJECT_DIR$/src/uslugi.html" />
-        <option value="$PROJECT_DIR$/src/precss/uslugi.styl" />
-        <option value="$PROJECT_DIR$/src/precss/forms.styl" />
-        <option value="$PROJECT_DIR$/src/blog.html" />
-        <option value="$PROJECT_DIR$/src/prejs/_jquery-3.3.1.min.js" />
-        <option value="$PROJECT_DIR$/src/prejs/_lightbox.min.js" />
-        <option value="$PROJECT_DIR$/src/prejs/_jquery.mask.min.js" />
-        <option value="$PROJECT_DIR$/src/precss/section-services-list-box.styl" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/precss/section-services.styl" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/prejs/app.js" />
-        <option value="$PROJECT_DIR$/src/precss/usluga.styl" />
-        <option value="$PROJECT_DIR$/src/precss/components.styl" />
-        <option value="$PROJECT_DIR$/src/usluga.html" />
-        <option value="$PROJECT_DIR$/src/precss/section-why-we.styl" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="264" />
-    <option name="y" value="27" />
-    <option name="width" value="1104" />
-    <option name="height" value="532" />
-  </component>
+  <component name="ProjectId" id="1UIWDyMM76xgt0QivW9WJYISj46" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="krasber-new-slice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="krasber-new-slice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="krasber-new-slice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="krasber-new-slice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="krasber-new-slice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="krasber-new-slice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="precss" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/precss/smart-grid.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/sprite.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.theme.default.min.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-service-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.carousel.min.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-prices.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/moile-menu.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_lightbox.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/forms.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/gulpfile.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-we-work.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/lightbox.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/article.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/components.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery.mask.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/fonts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-footer-contacts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/svg/symbols.svg&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/footer.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/usluga.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-why-we.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/blog.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery-3.3.1.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/mobile-menu.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/app.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/app.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/breadcrumbs.styl&#10;true&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-guestbook.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/uslugi.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-list-box.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/404.styl" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/precss/components.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/uslugi.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-services-list-box.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/_2_pwabuilder-sw.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/seo-posiotions.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-service-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.carousel.min.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/footer.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-footer-contacts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-prices.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_lightbox.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/forms.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-we-work.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/article.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/components.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery.mask.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/fonts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-footer-contacts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/svg/symbols.svg&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/footer.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/app.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-form.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/_0_sw_enable.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/mobile-menu.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/forms.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/app.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/app.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/fonts.styl&#10;true&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-list-box.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/article.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/sprite.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.theme.default.min.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/moile-menu.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/gulpfile.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/lightbox.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/smart-grid.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/gulpfile.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/sprite.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/usluga.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-why-we.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/blog.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery-3.3.1.min.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/app.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/mobile-menu.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/breadcrumbs.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/step-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-guestbook.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/uslugi.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/404.styl" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="/var/www/html/vhosts/levant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/precss" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -233,28 +82,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/precss" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/img" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Gulp.js.watch">
+  <component name="RunManager" selected="Gulp.js.build">
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -275,23 +113,34 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>build</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="js" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
       <tasks>
         <task>js</task>
-      </tasks>
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="sprites" type="js.build_tools.gulp" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>sprites</task>
       </tasks>
       <arguments />
       <envs />
@@ -309,19 +158,33 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gulp.js.watch" />
-      <item itemvalue="Gulp.js.sprites" />
       <item itemvalue="Gulp.js.browserSync" />
       <item itemvalue="Gulp.js.js" />
+      <item itemvalue="Gulp.js.watch" />
+      <item itemvalue="Gulp.js.build" />
+      <item itemvalue="Gulp.js.default" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.build" />
         <item itemvalue="Gulp.js.watch" />
         <item itemvalue="Gulp.js.js" />
         <item itemvalue="Gulp.js.browserSync" />
-        <item itemvalue="Gulp.js.sprites" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -434,12 +297,82 @@
       <workItem from="1544341157682" duration="141000" />
       <workItem from="1544341412911" duration="126000" />
       <workItem from="1546155696183" duration="1596000" />
-      <workItem from="1546157927562" duration="47000" />
+      <workItem from="1546157927562" duration="7917000" />
+      <workItem from="1546176077529" duration="3927000" />
+      <workItem from="1546240677742" duration="1880000" />
+      <workItem from="1546329211106" duration="1239000" />
+      <workItem from="1546441399448" duration="333000" />
+      <workItem from="1546442205420" duration="437000" />
+      <workItem from="1546443182656" duration="227000" />
+      <workItem from="1546501027480" duration="188000" />
+      <workItem from="1546508987572" duration="3000" />
+      <workItem from="1546509092941" duration="194000" />
+      <workItem from="1547128045883" duration="271000" />
+      <workItem from="1547138557548" duration="1826000" />
+      <workItem from="1547141339596" duration="828000" />
+      <workItem from="1547189135258" duration="717000" />
+      <workItem from="1547451286678" duration="291000" />
+      <workItem from="1547452048983" duration="113000" />
+      <workItem from="1547719127504" duration="637000" />
+      <workItem from="1547719825847" duration="7072000" />
+      <workItem from="1547732002187" duration="858000" />
+      <workItem from="1547735267001" duration="1166000" />
+      <workItem from="1547736503246" duration="292000" />
+      <workItem from="1548325323138" duration="191000" />
+      <workItem from="1549891226563" duration="853000" />
+      <workItem from="1549892786378" duration="2264000" />
+      <workItem from="1549895183048" duration="3531000" />
+      <workItem from="1549900620541" duration="1003000" />
+      <workItem from="1549951888014" duration="601000" />
+      <workItem from="1551882334261" duration="23000" />
+      <workItem from="1551882372311" duration="70000" />
+      <workItem from="1552646136033" duration="1589000" />
+      <workItem from="1552650429513" duration="144000" />
+      <workItem from="1552983345253" duration="777000" />
+      <workItem from="1553596189663" duration="500000" />
+      <workItem from="1554916117815" duration="241000" />
+      <workItem from="1555074411843" duration="64000" />
+      <workItem from="1555074607214" duration="972000" />
+      <workItem from="1555075723069" duration="1906000" />
+      <workItem from="1555421123121" duration="86000" />
+      <workItem from="1555422465949" duration="123000" />
+      <workItem from="1566386541961" duration="5351000" />
+      <workItem from="1566454144951" duration="3036000" />
+      <workItem from="1566458672056" duration="20578000" />
+      <workItem from="1566485694410" duration="161000" />
+      <workItem from="1566486380427" duration="71000" />
+      <workItem from="1566487609172" duration="242000" />
+      <workItem from="1566487916086" duration="329000" />
+      <workItem from="1566535078868" duration="43000" />
+      <workItem from="1566535246590" duration="21000" />
+      <workItem from="1566535377780" duration="461000" />
+      <workItem from="1566800177930" duration="2844000" />
+      <workItem from="1566824130904" duration="772000" />
+      <workItem from="1566832399174" duration="40000" />
+      <workItem from="1566832447355" duration="5000" />
+      <workItem from="1566982320630" duration="1195000" />
+      <workItem from="1567143841057" duration="188000" />
+      <workItem from="1567144329814" duration="97000" />
+      <workItem from="1567144531046" duration="43000" />
+      <workItem from="1567691497505" duration="748000" />
+      <workItem from="1567692419857" duration="782000" />
+      <workItem from="1567693387455" duration="301000" />
+      <workItem from="1567693759768" duration="18000" />
+      <workItem from="1567693866037" duration="19000" />
+      <workItem from="1567694001824" duration="8000" />
+      <workItem from="1567753303745" duration="61000" />
+      <workItem from="1567753561372" duration="215000" />
+      <workItem from="1568015849271" duration="169000" />
+      <workItem from="1568115480295" duration="215000" />
+      <workItem from="1568115849174" duration="68000" />
+      <workItem from="1575044478553" duration="498000" />
+      <workItem from="1575045022733" duration="242000" />
+      <workItem from="1575045765488" duration="504000" />
+      <workItem from="1575100815362" duration="3000" />
+      <workItem from="1578725798058" duration="246000" />
+      <workItem from="1582013125290" duration="215000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,365 +383,33 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37459806" visible="true" weight="0.19017094" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" sideWeight="0.6254019" side_tool="true" weight="0.19017094" />
-      <window_info id="npm" order="3" sideWeight="0.5533662" side_tool="true" weight="0.18482906" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32464713" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32681867" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/svg/sprite.svg" />
-    <entry file="file://$PROJECT_DIR$/src/precss/blog.styl" />
-    <entry file="file://$PROJECT_DIR$/src/precss/fonts.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-guestbook.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/breadcrumbs.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/404.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/smart-grid.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="308" selection-start-line="308" selection-end-line="308" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/sprite.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="230" column="36" selection-start-line="230" selection-start-column="36" selection-end-line="230" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="239" column="36" selection-start-line="239" selection-start-column="36" selection-end-line="239" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="483" column="36" selection-start-line="483" selection-start-column="36" selection-end-line="483" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-footer-contacts.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-we-work.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/footer.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1886">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-portfolio.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2139">
-          <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/article.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-order-form.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/portfolio.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1794">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/portfolio-item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2714">
-          <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/css/lightbox.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/icons-svg/logo_white.svg" />
-    <entry file="file://$PROJECT_DIR$/src/img/logo_white.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/logo_green.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-order-service-form.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/svg/symbols.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/mobile-menu.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/app.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-services-prices.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/seo-prodvizhenie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="170" column="39" lean-forward="true" selection-start-line="170" selection-start-column="39" selection-end-line="170" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uslugi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="328" column="93" selection-start-line="328" selection-start-column="79" selection-end-line="328" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/symbols.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/forms.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3634">
-          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/uslugi.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4094">
-          <caret line="178" column="20" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart-grid-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="209" column="44" selection-start-line="209" selection-start-column="44" selection-end-line="209" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prejs/_jquery.3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prejs/_lightbox.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="37" lean-forward="true" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prejs/_jquery.mask.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" lean-forward="true" selection-end-line="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-services.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-services-list-box.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="130" column="64" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4623">
-          <caret line="258" column="26" lean-forward="true" selection-start-line="258" selection-start-column="26" selection-end-line="258" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prejs/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2438">
-          <caret line="106" column="107" selection-start-line="106" selection-start-column="107" selection-end-line="106" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/usluga.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/usluga.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="180" column="63" selection-start-line="180" selection-start-column="63" selection-end-line="180" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/components.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/precss/section-why-we.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1582013339616">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269530" />
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582013339616" />
+    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1582013339615">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="273" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269530" />
+    <state width="1874" height="273" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582013339615" />
+    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1582013339615">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="273" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269529" />
+    <state width="1874" height="273" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582013339615" />
+    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1582013339615">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="273" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269530" />
+    <state width="1874" height="273" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582013339615" />
+    <state x="608" y="260" width="703" height="586" key="find.popup" timestamp="1582013220505">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="608" y="260" width="703" height="586" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1582013220505" />
   </component>
 </project>

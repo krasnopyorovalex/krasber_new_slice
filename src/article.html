@@ -162,30 +162,13 @@
                         </div>
                         <div class="col-4 hidden__xs to__bottom">
                             <div class="ad">
-                                <div class="text">Реклама</div>
+                                <div class="ads__carousel owl-carousel owl-theme">
+                                    <img src="./img/banner_free-audit.png" alt="alt" class="call__popup" data-service="Стандарт">
+                                    <img src="./img/banner_ads.png" alt="alt" class="call__popup" data-service="Премиум">
+                                </div>
                             </div>
                             <aside class="other__articles">
-                                <div class="title">ЧИТАЙТЕ ПО ТЕМЕ</div>
-                                <div class="other__articles-row">
-                                    <div class="other__articles-image">
-                                        <figure>
-                                            <img src="./img/article_another.png" alt="alt">
-                                        </figure>
-                                    </div>
-                                    <div class="other__articles-name">
-                                        <div class="name">Где заказать сайт: фриланс или веб-студия</div>
-                                    </div>
-                                </div>
-                                <div class="other__articles-row">
-                                    <div class="other__articles-image">
-                                        <figure>
-                                            <img src="./img/article_another.png" alt="alt">
-                                        </figure>
-                                    </div>
-                                    <div class="other__articles-name">
-                                        <div class="name">Где заказать сайт: фриланс или веб-студия</div>
-                                    </div>
-                                </div>
+
                             </aside>
                         </div>
                     </div>
@@ -201,12 +184,12 @@
                     <div class="row">
                         <div class="col-only-6 center">
                             <a class="prev__project">
-                                7 способов попасть под фильтры в поисковых системах
+                                7 способов попасть под фильтры в поисковых системах <span data-text="Следующая статья"></span>
                             </a>
                         </div>
                         <div class="col-only-6 center">
                             <a class="next__project">
-                                Саша любит Наташу, хи-хи-хи:) Чмоки-чмоки!
+                                Саша любит Наташу, хи-хи-хи:) Чмоки-чмоки! <span data-text="Предыдущая статья"></span>
                             </a>
                         </div>
                     </div>
@@ -347,6 +330,59 @@
         </div>
     </footer>
 
+    <div class="popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <div class="order__service-form">
+                        <div class="close__box" title="Закрыть форму">
+                            <svg class="icon close">
+                                <use xlink:href="./img/symbols.svg#close"></use>
+                            </svg>
+                        </div>
+                        <div class="wrap">
+                            <div class="desc">
+                                <div class="as__h1">Заказать услугу</div>
+                                <p>Вы можете бесплатно  получить аудит вашего сайта. Вас это не к чему не обязывает.</p>
+                            </div>
+                            <div class="form__box">
+                                <form action="#" class="order__service" method="post">
+                                    <div class="services__list-block single__block">
+                                        <select name="service" id="service__field">
+                                            <option value="Старт">Старт</option>
+                                            <option value="Стандарт">Стандарт</option>
+                                            <option value="Премиум">Премиум</option>
+                                        </select>
+                                        <i class="select__arrow"></i>
+                                    </div>
+                                    <div class="single__block">
+                                        <input type="text" name="name" placeholder="Ваше имя" autocomplete="off">
+                                    </div>
+                                    <div class="single__block">
+                                        <input type="text" name="phone" placeholder="Номер телефона" autocomplete="off">
+                                    </div>
+                                    <div class="single__block">
+                                        <input type="email" name="email" placeholder="Email" autocomplete="off">
+                                    </div>
+                                    <div class="single__block">
+                                        <button type="submit">Отправить</button>
+                                    </div>
+                                    <div class="single__block agree__block">
+                                        <input type="checkbox" name="agree" id="i_agree" value="1" checked>
+                                        <label for="i_agree">Отправляя заяявку  вы соглашаетесь с <a href="#">правилами офферты</a></label>
+                                    </div>
+                                </form>
+                                <!-- /.order__service -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup__show-bg"></div>
+
+    <script src="js/jquery.3.3.1.min.js"></script>
     <script src="js/app.min.js"></script>
     </body>
 </html>
