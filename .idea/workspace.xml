@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb9c0c9a-907f-4d51-bd96-9d17879407cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/yii2settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/jquery.3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/arrow_down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/arrow_down.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/design.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/design.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/free_audit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/free_audit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/insta.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/kontekst.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/kontekst.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/oneseo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/oneseo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/razrabotka.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/razrabotka.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/redesign.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/redesign.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/seo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/seo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/skype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/skype.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/smm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/smm.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/viber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/viber.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/symbols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/symbols.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seo-prodvizhenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/seo-prodvizhenie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usluga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/usluga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uslugi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/uslugi.html" afterDir="false" />
-    </list>
+    <list default="true" id="fb9c0c9a-907f-4d51-bd96-9d17879407cf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
