@@ -1,0 +1,114 @@
+footer
+  md-block({
+    text-align: center
+  })
+  .container
+    .line
+      border-top 2px solid #c6c6c6
+    .list__columns
+      padding-top 4rem
+      padding-bottom 4rem
+      align-items start
+      sm-block({
+        padding-top: 0
+        padding-bottom: 1rem
+      })
+      .col__logo
+        size(4)
+        size-md(12)
+        md-block({
+          display: none
+        })
+        img, .copyright
+          max-width 200px
+          sm-block({
+            max-width: 120px
+          })
+        .copyright
+          color: #2c2c2e;
+          font-size: rem(10px)
+          line-height 16px
+          font-weight: 400
+          margin-top: 2rem
+          md-block({
+            max-width: 100%
+          })
+          sm-block({
+            max-width: 100%
+          })
+          p
+            margin 10px 0 0 0
+            font-size: rem(10px)
+            line-height 16px
+      .col__service, .col__nav
+        size(2)
+        size-md(3)
+        size-sm(6)
+        size-xs(12)
+        .title
+          margin-bottom: 1rem
+          font-family: "Gilroy ExtraBold"
+          font-size: rem(18px)
+          letter-spacing: 0.01px
+          sm-block({
+            margin-bottom: 0
+            margin-top: 1.5rem
+          })
+        ul
+          li
+            line-height 26px
+            a
+              color: #2c2c2e;
+              font-size: rem(14px)
+              text-decoration: underline
+              &:hover {
+                color: #00c1a7
+              }
+              sm-block({
+                line-height: 24px
+                font-size: rem(15px)
+              })
+      .col__service
+        &:nth-child(2)
+          .title
+            max-width 120px
+            md-block({
+              max-width: 100%
+            })
+        &:nth-child(3)
+          size(3)
+          size-md(3)
+          size-sm(6)
+          size-xs(12)
+          .title
+            padding-left: 2.2rem
+            sm-block({
+              padding: 0
+            })
+          ul
+            padding-left: 2.5rem
+            sm-block({
+              padding: 0
+            })
+      .col__nav
+        sm-block({
+          margin-top: 2rem
+        })
+        nav
+          padding-left: 3rem
+          sm-block({
+            padding: 0
+          })
+        ul li
+          a
+            font-family: "Gilroy ExtraBold";
+            font-size: rem(13px)
+            text-transform: uppercase
+            color: #2c2c2e;
+            text-decoration: none
+            letter-spacing: 0.03px
+            &:hover {
+              color: #00c1a7
+            }
+          & + li
+            margin-top: 0.5rem

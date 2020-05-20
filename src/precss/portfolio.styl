@@ -1,0 +1,91 @@
+.prev__project, .next__project
+  color: #2c2c2e
+  font-family: "Gilroy ExtraBold"
+  font-size: rem(16px)
+  font-weight: 400
+  text-transform: uppercase
+  position: relative
+  display: inline-block
+  transition none
+  padding 2rem 0
+  max-width: 300px
+  md-block({
+    font-size: rem(12px)
+    max-width: 180px
+  })
+  sm-block({
+    font-size: 0
+    padding: 0
+  })
+  &:after
+    position: absolute
+    content ""
+    top: calc(50% - 19px)
+    sprite($arrow_project)
+    sm-block({
+      display: none
+    })
+  &:before
+    position: absolute
+    content ""
+    top: calc(50% - 19px)
+    display: none
+    sprite($arrow_project_mob)
+    sm-block({
+      display: block
+    })
+  &:hover
+    color #00c1a7
+    cursor: pointer;
+    &:after
+      sprite($arrow_project_active)
+  span
+    display: none
+    width: 85px
+    font-size rem(12px)
+    sm-block({
+      display: block
+    })
+    &:before
+      content: attr(data-text)
+.prev__project
+  text-align: right
+  &:after
+    transform rotate(180deg)
+    left: -5rem
+    sm-block({
+      top: 0
+    })
+  &:before
+    left: -5rem
+    sm-block({
+      top: 4px
+      left: -30px
+    })
+.next__project
+  text-align: left
+  &:after
+    right: -5rem
+    sm-block({
+      top: 0
+    })
+  &:before
+    transform rotate(180deg)
+    right: -5rem
+    sm-block({
+      top: 4px
+      right: -30px
+    })
+.portfolio__nav
+  .prev__project, .next__project
+    sm-block({
+      font-size: rem(10px)
+      height: auto
+      width: 80px
+    })
+  .prev__project, .next__project
+    &:before
+      top: 2px
+section.tags
+  padding: 0
+  margin 2rem 0 0 0

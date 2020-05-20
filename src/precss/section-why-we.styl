@@ -1,0 +1,81 @@
+.why__we
+  background: url("../img/pattern.png") repeat #ffffff
+  padding 1rem 0 .5rem 0
+  margin 2rem 0 0 0
+  md-block({
+    padding: 0 .5rem
+  })
+  p
+    margin-bottom: 3rem
+.why__we-list
+  row-flex()
+  justify-content center
+  padding 0 0 2rem 0
+  &-item
+    col()
+    size(4)
+    size-md(12)
+    display: flex;
+    position: relative
+    background-color: #ffffff
+    padding 2rem
+    margin-top 1rem
+    margin-bottom 2rem
+    border: 1px solid #f1f1f1
+    box-shadow 0 4px 6px rgba(0,0,0,.1)
+    .step {
+      font-family: "Gilroy ExtraBold";
+      position: absolute;
+      top: .2rem
+      color: #00346e
+      left: .5rem
+      font-size rem(50px)
+      opacity .1
+    }
+    .desc
+      font-family: "Gilroy ExtraBold";
+      font-size: rem(18px)
+      md-block({
+        margin-left: 1rem
+        font-size: rem(16px)
+      })
+  &.type__two
+    padding: 0 0 1rem 0
+    .why__we-list-item
+      margin-bottom: 1rem
+      border-radius: 5px
+      padding 15px 40px 15px 30px
+      md-block({
+        padding: 10px 40px 10px 30px
+      })
+      .step {
+        font-size rem(40px)
+      }
+      //.image {
+      //  width: 60px
+      //  height: 60px
+      //  display: flex
+      //  align-items center
+      //  justify-content center
+      //  text-align: center
+      //  border-radius 50%
+      //  margin 0 1rem 0 0
+      //  background-color: rgba(0,193,167,.3)
+      //  border: 1px solid #f1f1f1
+      //  box-shadow: 0 4px 6px rgba(0,0,0,.1)
+      //  img {
+      //    width: 36px
+      //    height: 36px
+      //    position: relative
+      //    md-block({
+      //      margin: 1rem 0
+      //    })
+      //  }
+      //}
+    .desc
+      font-size: rem(17px)
+      margin  auto 0
+      md-block({
+        margin: 1rem
+        font-size: rem(16px)
+      })

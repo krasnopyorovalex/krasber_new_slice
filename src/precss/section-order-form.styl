@@ -1,0 +1,74 @@
+.order__form
+  text-align: center
+  background-image: url("../img/wide-form-bg.jpg")
+  background-repeat no-repeat
+  background-color #00346e
+  background-position center center
+  background-size cover
+  padding 0 0 2rem 0
+  margin: 0
+  position: relative;
+  &:before {
+    content ""
+    position: absolute;
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-color: rgba(0,0,0,.4)
+  }
+  lg-block({
+    margin: 0
+  })
+  .col-7 {
+    z-index 100
+  }
+  .as__h1
+    margin-bottom: 0
+    color: #ffffff
+    md-block({
+      font-size: rem(28px)
+      margin-bottom: .5rem
+    })
+  .sub__title
+    max-width 390px
+    margin 0 auto
+    color: #ffffff
+    font-size: rem(14px)
+  form
+    row-flex()
+    justify-content center
+    color: #ffffff
+    font-size: rem(12px)
+    font-weight: 400
+    margin 3rem auto 0
+    md-block({
+      margin: 1.5rem auto 0
+      text-align: center
+    })
+    .single__block
+      col()
+      size(4)
+      size-md(4)
+      size-sm(12)
+      margin-bottom: 1rem
+      input
+        text-align: center
+        width: 100%
+      &.message
+        size(12)
+        size-md(12)
+        textarea
+          text-align: center
+          width: 100%
+      &.agree__block
+        size(8)
+        size-md(10)
+        align-self center
+      &.submit__block
+        size(4)
+        size-md(12)
+        button
+          md-block({
+            width: 220px
+          })

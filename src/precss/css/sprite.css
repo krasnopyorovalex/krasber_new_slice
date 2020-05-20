@@ -1,0 +1,263 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 17.009999999999998rem 223.7rem;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.arrow_down:before {
+      background-position: 0rem 0rem;
+      width: 5.67rem;
+      height: 5.67rem;
+  }
+
+
+
+
+  .icon.close:before {
+      background-position: 0rem -5.7rem;
+      width: 6rem;
+      height: 6rem;
+  }
+
+
+
+
+  .icon.de-01:before {
+      background-position: 0rem -11.7rem;
+      width: 6.4rem;
+      height: 6.5rem;
+  }
+
+
+
+
+  .icon.de-02:before {
+      background-position: 0rem -18.2rem;
+      width: 4.7rem;
+      height: 6.6rem;
+  }
+
+
+
+
+  .icon.de-03:before {
+      background-position: 0rem -24.8rem;
+      width: 4.7rem;
+      height: 6.7rem;
+  }
+
+
+
+
+  .icon.de-04:before {
+      background-position: 0rem -31.5rem;
+      width: 6.9rem;
+      height: 5.8rem;
+  }
+
+
+
+
+  .icon.de-05:before {
+      background-position: 0rem -37.3rem;
+      width: 5.1rem;
+      height: 5.9rem;
+  }
+
+
+
+
+  .icon.de-06:before {
+      background-position: 0rem -43.2rem;
+      width: 7.2rem;
+      height: 4.9rem;
+  }
+
+
+
+
+  .icon.de-07:before {
+      background-position: 0rem -48.1rem;
+      width: 6.2rem;
+      height: 6.2rem;
+  }
+
+
+
+
+  .icon.de-08:before {
+      background-position: 0rem -54.3rem;
+      width: 6.2rem;
+      height: 5.4rem;
+  }
+
+
+
+
+  .icon.de-09:before {
+      background-position: 0rem -59.7rem;
+      width: 6.2rem;
+      height: 5.1rem;
+  }
+
+
+
+
+  .icon.develop:before {
+      background-position: 0rem -64.8rem;
+      width: 7.4rem;
+      height: 7.4rem;
+  }
+
+
+
+
+  .icon.facebook:before {
+      background-position: 0rem -72.2rem;
+      width: 2.63rem;
+      height: 5.67rem;
+  }
+
+
+
+
+  .icon.garantii:before {
+      background-position: 0rem -77.9rem;
+      width: 13.819999999999999rem;
+      height: 17.009999999999998rem;
+  }
+
+
+
+
+  .icon.insta:before {
+      background-position: 0rem -95rem;
+      width: 5.67rem;
+      height: 5.66rem;
+  }
+
+
+
+
+  .icon.konsultaciya:before {
+      background-position: 0rem -100.7rem;
+      width: 16.72rem;
+      height: 17.009999999999998rem;
+  }
+
+
+
+
+  .icon.link:before {
+      background-position: 0rem -117.8rem;
+      width: 8rem;
+      height: 8rem;
+  }
+
+
+
+
+  .icon.opit:before {
+      background-position: 0rem -125.8rem;
+      width: 14.59rem;
+      height: 17.009999999999998rem;
+  }
+
+
+
+
+  .icon.opit_v_razrabotke:before {
+      background-position: 0rem -142.9rem;
+      width: 17.009999999999998rem;
+      height: 14.13rem;
+  }
+
+
+
+
+  .icon.phone:before {
+      background-position: 0rem -157.1rem;
+      width: 5.67rem;
+      height: 5.67rem;
+  }
+
+
+
+
+  .icon.podhod:before {
+      background-position: 0rem -162.8rem;
+      width: 12.55rem;
+      height: 17.009999999999998rem;
+  }
+
+
+
+
+  .icon.seo:before {
+      background-position: 0rem -179.9rem;
+      width: 7.4rem;
+      height: 7.4rem;
+  }
+
+
+
+
+  .icon.sertifikat:before {
+      background-position: 0rem -187.3rem;
+      width: 12.72rem;
+      height: 17.009999999999998rem;
+  }
+
+
+
+
+  .icon.skype:before {
+      background-position: 0rem -204.4rem;
+      width: 5.62rem;
+      height: 5.67rem;
+  }
+
+
+
+
+  .icon.telegram:before {
+      background-position: 0rem -210.1rem;
+      width: 5.67rem;
+      height: 4.470000000000001rem;
+  }
+
+
+
+
+  .icon.viber:before {
+      background-position: 0rem -214.6rem;
+      width: 5.26rem;
+      height: 5.67rem;
+  }
+
+
+
+
+  .icon.vk:before {
+      background-position: 0rem -220.3rem;
+      width: 5.67rem;
+      height: 3.31rem;
+  }
+
+
+
+
+

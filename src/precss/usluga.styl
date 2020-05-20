@@ -1,0 +1,122 @@
+.tariffs
+  padding 2rem 0 3rem 0
+  margin: 0
+  md-block({
+    padding: 1rem .5rem 2rem .5rem
+  })
+  .bg__box
+    position: absolute
+    height: auto
+    bottom: 5px
+    top: 0
+    background: url("../img/pattern_03.png") repeat #ffffff
+    z-index -1
+    md-block({
+      background-size: 10%
+    })
+  h2 {
+    margin 0 0 2rem 0
+  }
+  .tariff
+    position: relative
+    margin-bottom: 3rem
+    flex-direction column
+    border: 1px solid #f1f1f1
+    box-shadow 0 4px 6px rgba(0,0,0,.1)
+    background-color: #fff
+    md-block({
+      margin-bottom: 2rem
+    })
+    ul li:before
+      content ""
+      position: absolute;
+      width: 5px
+      height: 5px
+      left: -.2rem
+      top: calc(50% - 2px)
+      background-color: #00c1a7
+      border-radius 50%
+    &:nth-child(2)
+      .price, .body
+        md-block({
+          display: block
+        })
+    &.type-one
+      .box-bg
+        background-color: rgba(0, 193, 167, 0.3);
+    &.type-two
+      .box-bg
+        background-color: #00c1a7;
+    &.type-three .box-bg
+      background-color: rgba(0, 193, 167, 0.3);
+    .box
+      color: #ffffff
+      font-family: "Gilroy ExtraBold"
+      text-align: center
+      md-block({
+        padding: 1.5rem 1rem
+      })
+      .icon
+        display: none
+        width: 34px
+        height: 34px
+        fill: #ffffff
+        position: absolute
+        right: 1rem
+        top: 1.2rem
+        md-block({
+          display: block
+        })
+      .name, .price
+        font-size: rem(20px)
+        color #2c2c2e
+        padding 1rem
+        md-block({
+          padding: 0
+        })
+        p {
+          text-align: center;
+          line-height normal
+          margin 0
+        }
+        span {
+          font-size rem(26px)
+          md-block({
+            font-size: rem(20px)
+          })
+        }
+        md-block({
+          font-size: rem(18px)
+        })
+    .body
+      padding 1.5rem 1rem 2rem 1rem
+      .price {
+        margin .5rem 0 0 0
+        padding 1rem 0 0 0
+        p {
+          font-weight 500
+          line-height normal
+        }
+      }
+      ul
+        li
+          padding .8rem 0 .8rem 0.5rem
+          position: relative
+          border-bottom: 1px solid #f1f1f1
+          &:before
+            display: none
+        &.icon__plus
+          li
+            &:before
+              display: inline-block
+              top: calc(50% - 10px)
+              font-weight bold
+              content "+"
+              color #00c1a7
+              background: none
+      .btn
+        width: 120px
+        position: absolute
+        bottom: -1.2rem
+        right: 2rem
+        padding 10px 50px 10px 20px

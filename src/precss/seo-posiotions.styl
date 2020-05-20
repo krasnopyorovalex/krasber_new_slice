@@ -1,0 +1,59 @@
+.seo_positions {
+  margin 2rem 0
+  &-item {
+    text-align: center
+    .logo {
+      max-width 220px
+      margin 0 auto
+    }
+    .domain {
+      padding: 12px 12px
+      display: block
+      margin 1rem 0
+    }
+    p {
+      margin 15px 0
+    }
+    .positions {
+      ul {
+        margin: 0
+      }
+      li {
+        padding: .6rem .6rem
+        border 1px dashed #00c1a7
+        margin: 0 .4rem 0 0
+        display: flex
+        align-items center
+        & + li {
+          margin .6rem .4rem 0 0
+        }
+        svg {
+          width: 24px
+          height: 24px
+          display: inline-block
+          vertical-align: middle
+          margin 0 .5rem 0 0
+        }
+        &:before {
+          display: none
+        }
+        div {
+          flex-grow 1
+          text-align: right
+          span {
+            width: 30px
+            height: 30px
+            display: inline-block
+            text-align: center
+            border-radius 50%
+            background-color: #00c1a7
+            line-height 30px
+          }
+        }
+      }
+    }
+  }
+}
+.as__center {
+  align-self center
+}

@@ -1,0 +1,694 @@
+.btn
+  color: #ffffff
+  font-size: rem(14px)
+  text-transform: uppercase
+  background-color: #00c1a7;
+  padding 10px 60px 10px 26px
+  border-radius 3px
+  border: 1px solid #00c1a7;
+  text-align: center
+  display: inline-block
+  position: relative
+  transition: all 300ms ease
+  &:after {
+    content ""
+    position: absolute
+    right: 40px
+    top: 20%
+    height 60%
+    width 1px
+    background-color: #fff
+    transition: all 300ms ease
+  }
+  &:before {
+    content ""
+    position: absolute;
+    right: 1rem
+    top: calc(50% - 4px)
+    sprite($btn_arrow_right)
+  }
+  &:hover {
+    box-shadow: 0 2px 1px rgba(0,0,0,.09)
+    background-color: #009783
+  }
+  &.white
+    display: inline-block
+    margin 2.5rem 0 0 0
+    background: none
+    border: 1px solid #ffffff
+    text-transform: uppercase
+    padding 14px 64px 12px 26px
+    letter-spacing 1px
+    &:hover {
+      background-color: #00c1a7;
+      border: 1px solid #00c1a7;
+    }
+    &:after {
+      top: 0
+      height: 100%
+    }
+  &.black
+    display: inline-block
+    margin 2.5rem 0 0 0
+    background: none
+    border: 1px solid #2c2c2e
+    color: #2c2c2e
+    text-transform: uppercase
+    padding 14px 64px 12px 26px
+    letter-spacing 1px
+    &:hover {
+      background-color: #00c1a7;
+      border: 1px solid #00c1a7;
+      color: #ffffff
+      &:after {
+        background-color: #ffffff;
+      }
+      &:before{
+        sprite($btn_arrow_right)
+      }
+    }
+    &:after {
+      content ""
+      position: absolute
+      right: 40px
+      top: 20%
+      height 60%
+      width 1px
+      background-color: #2c2c2e
+    }
+    &:before {
+      content ""
+      position: absolute;
+      right: 1rem
+      top: calc(50% - 4px)
+      sprite($btn_arrow_right_black)
+    }
+.tags
+  span
+    display: inline-block
+    margin-bottom: 5px
+    font-size: rem(12px)
+    border-radius: 10px
+    border: 2px solid #ffffff
+    padding 2px 9px
+    transition: all 200ms ease
+    color #ffffff
+    margin-right: 6px
+    &:last-child
+      margin-right: 0
+  &.black
+    span
+      color #2c2c2e
+      border: 2px solid #2c2c2e
+    //&:hover
+    //  border: 2px solid #00c1a7
+    //  background-color: #00c1a7
+    //  cursor: pointer
+ul.circle
+  li
+    position: relative
+    &:before
+      position: absolute
+      content ""
+      left: -5px
+      top: 14px
+      sprite($ellips_green)
+.info__message
+  margin-top: 1rem
+  display: inline-block
+  color: #a5a5a5
+  font-size: rem(12px)
+.btn_style-two
+  display: block
+  border-radius: 10px
+  border: 2px solid #d2d2d2
+  padding 8px 15px
+  position: relative
+  font-size rem(14px)
+  color #2c2c2e
+  &:hover
+    background-color: #00c1a7
+    border: 2px solid #00c1a7
+    cursor: pointer
+  &:after
+    position: absolute
+    content ""
+    sprite($service_arrow)
+    right: 12px
+    top: 10px
+.breadcrumbs
+  md-block({
+    padding: 0 .5rem 0 .5rem
+  })
+  &.with__bg
+    margin 2rem 0 0 0
+    padding 10rem 0 0 0
+    overflow hidden
+    md-block({
+      padding: 3rem .5rem 0 .5rem
+    })
+    .bg__box
+      position: absolute
+      height: auto
+      width: 100%
+      top: 0
+      bottom: 0
+      background: url("../img/pattern_03.png") repeat #ffffff
+      z-index -1
+      md-block({
+        background-size: 10%
+        bottom: 1.2rem
+      })
+    h1
+      margin-top: 0.4rem
+      margin-bottom: 0
+.blue
+  background-color: #00346e;
+.grey
+  background-color: rgba(0,193,167,.33)
+article
+  position: relative
+  margin-bottom 2rem
+.articles__list
+  padding: 0
+  md-block({
+    padding: 0 .5rem
+  })
+  article
+    row-flex()
+    justify-content center
+    &:after
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.33);
+      z-index -1
+      position: absolute
+      content ""
+      left: 1%
+      right: 1%
+      top: 0
+      bottom: 0
+  .btn
+    margin: 0
+    display: inline-block
+    font-size rem(12px)
+    padding: 10px 64px 10px 26px;
+    md-block({
+      margin: 0 auto 1rem
+    })
+  .image
+    position: relative
+    col()
+    size(3)
+    size-md(12)
+    md-block({
+      text-align: center
+    })
+    figure.is__loaded
+      background-color: #ffffff
+      width: 100%
+      height: 100%
+      position: relative
+      &:after
+        top: calc(50% - 10px)
+    img
+      z-index 10
+      vertical-align: middle
+  .preview
+    col()
+    size(9)
+    size-md(12)
+    padding 1rem 2rem
+    md-block({
+      padding: 1rem
+    })
+    .name
+      color #2c2c2e
+      display: block
+      font-size: rem(20px)
+      font-family "Gilroy ExtraBold"
+      margin 0 0 .5rem 0
+      md-block({
+        margin: .5rem 0
+      })
+time
+  font-size rem(14px)
+  color #2c2c2e
+  letter-spacing: 0.02px
+.btn__link-project
+  background-color: #2c2c2e
+  color #ffffff
+  max-width: 300px
+  display: block
+  text-align: center
+  margin 2rem auto
+  padding 20px 15px
+  font-family "Gilroy"
+  font-size: rem(18px)
+  font-weight: 300
+.filter__categories
+  text-align: center
+  position: relative
+  li
+    display: inline-block
+    font-weight 700
+    font-size: rem(14px)
+    position: relative
+    md-block({
+      text-align: left
+    })
+    &:not(.active)
+      md-block({
+        display: none
+      })
+    & + li
+      margin-left: 2rem
+      md-block({
+        margin-left: 0
+      })
+    &:after
+      transition: all 300ms ease
+      opacity 0
+      content ""
+      bottom: -8px
+      left: 0
+      width: 15px
+      position: absolute
+      border 2px solid #00c1a7
+      md-block({
+        border: none
+      })
+    &:hover
+      cursor pointer
+    &.active:after, &:hover:after
+      opacity 1
+    &.active
+      md-block({
+        display: block
+        border-radius: 10px
+        padding: 10px
+        border: 2px solid #d2d2d2
+      })
+  &.is__opened
+    li
+      md-block({
+        display: block
+        border-radius: 10px
+        padding: 10px
+        border: 2px solid #d2d2d2
+        margin: 0 0 5px 0
+        display: block
+      })
+      &.active
+        md-block({
+          border: 2px solid #00c1a7
+        })
+    .btn__arrow .icon
+      md-block({
+        transform: rotate(180deg)
+      })
+  .btn__arrow
+    display: none
+    position: absolute
+    right: 10px
+    top: 7px
+    md-block({
+        display: block
+      })
+    .icon
+      width: 28px
+      height: 28px
+      fill: #00c1a7
+.popup__show-bg
+  background-color: rgba(255,255,255,0.8)
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  z-index 1
+  display: none
+.popup
+  display: none
+  position: fixed
+  top 25%
+  left 0
+  right: 0
+  z-index 10
+  sm-block({
+    top: 20%
+  })
+  .close__box
+    display: block
+    position: relative
+    width: 100%
+    .close
+      position: absolute
+      right: -15px
+      top: -70px
+      fill #cc0000
+      width: 60px
+      height: 60px
+      md-block({
+        top: -45px
+        width: 40px
+        height: 40px
+      })
+.faq
+  margin 0 0 2rem 0
+  > li
+    display: block
+    width: 100%
+    margin: 0
+    padding: 0
+    overflow hidden
+    &:before {
+      display: none
+    }
+    & + li
+      margin-top: 1rem
+    .q
+      background-color: rgba(0, 193, 167, 0.3);
+      padding 20px 20px 20px 40px
+      font-weight bold
+      position: relative
+      font-size rem(17px)
+      &:before, &:after
+        transition .5s cubic-bezier(.18,.89,.32,1.28)
+        position: absolute
+        display: block
+        bottom: 0
+        top: 0
+        left: 10px
+        content ""
+        background-color: #00c1a7
+        margin auto
+        font-size rem(30px)
+      &:after
+        width: 3px
+        height: 15px
+        left: 16px
+      &:before
+        width: 15px
+        height: 3px
+      &:hover
+        cursor: pointer
+    .a
+      margin 1rem 0
+      display: none
+    &.active
+      .q
+        &:after
+          transform translate3d(0,-70px,0)
+.is__sent,.is__loaded
+  position: relative
+  &:after
+    position: absolute
+    content ""
+    left: calc(50% - 10px)
+    top: 2px
+    border-radius: 50%
+    width: 20px
+    height: 20px
+    z-index 10
+    border-top: 3px solid #eee
+    border-right: 3px solid #eee
+    border-bottom: 3px solid #eee
+    border-left: 3px solid #00c1a7
+    transform: translateZ(0)
+    animation: load8 1.1s infinite linear
+  button[type=submit]
+    color #ffffff
+    &:hover
+      color #2c2c2e
+@-webkit-keyframes load8
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+@keyframes load8
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+.hidden__xs
+  xs('display','none')
+.to__bottom
+  display: flex
+  flex-direction column
+section
+  .info
+    margin-bottom: 3rem
+    margin-top: 0.5rem
+    font-size rem(14px)
+    md-block({
+      margin-bottom: 1rem
+    })
+img.minify
+  margin 0 auto
+  display: block
+  width: auto
+  max-width: 280px
+  xs-block({
+    max-width: 100%
+  })
+.pagination
+  li
+    text-align: center
+    display: inline-block
+    a, span
+      color #2c2c2e
+      padding: 6px 12px
+      font-family: "Gilroy ExtraBold"
+      position: relative
+      border 1px solid #00c1a7
+      border-radius 50%
+    &:first-child a
+      padding: 6px 14px
+    a:hover
+      background-color: #00c1a7
+      color #ffffff
+    & + li
+      margin-left: 14px
+    &.active a, &:first-child span
+      padding: 6px 14px
+    &.active
+      span
+        background-color: #00c1a7
+        color #ffffff
+.notify
+  position: fixed
+  display: none
+  right: 0
+  top: 11%
+  width: 320px
+  border-top 3px solid #2c2c2e
+  box-shadow 0 1px 4px #1c4963
+  background-color: #F5F5F5
+  z-index 10
+  .close
+    position: absolute
+    width: 15px
+    height: 15px
+    right: 5px
+    top: 5px
+  > div
+    font-family: "Gilroy ExtraBold"
+    padding: 1.5rem 2rem 1rem 1rem
+    font-size rem(15px)
+table
+  width: 100%
+  tr
+    th
+      font-family: "Gilroy ExtraBold"
+      font-size rem(18px)
+      background-color: #00c1a7
+      color #ffffff
+      border-bottom: 1rem solid #ffffff
+      border-right 1rem solid #ffffff
+      &:last-child
+        border-right none
+    td, th
+      padding 1rem
+      cellpadding: 4px
+      vertical-align: top
+    td
+      background-color: #f3f3f3
+      border-top 1rem solid #ffffff
+      border-right 1rem solid #ffffff
+      p:last-child
+        margin 0
+      &:last-child
+        border-right none
+table
+  margin: 0 0 15px 0
+  tr td, tr td p
+    md-block({
+      text-align: left
+    })
+  &.seo
+    tr
+      td
+        width: 50%
+    tr:last-child
+      td
+        width: 100%
+        p
+          text-align: center
+.price__time-container.row
+  margin-top: 1rem
+  .col-6
+    md-block({
+      width: 100%
+    })
+.price__time
+  padding 1.5rem 1rem .4rem 1rem
+  border: 1px solid #00346e
+  position: relative
+  md-block({
+    margin: .5rem 0 1rem 0
+  })
+  &:after
+    content ""
+    position: absolute
+    border: 1px solid #00c1a7
+    left: 4px
+    right: 4px
+    bottom: 4px
+    top: 4px
+    z-index: -1
+  .icons
+    position: absolute
+    top: -10px
+    padding 0 12px
+    z-index 10
+    background-color: #fff
+    svg
+      width 28px
+      height: 28px
+      & + svg
+        margin-left: 8px
+.attached__portfolio
+  .tags {
+    md-block({
+      display: none
+    })
+  }
+  .col-4
+    display: flex
+    flex-direction column
+    border 1px solid #00346e
+    padding 1rem
+    position: relative
+    margin-top: 1rem
+    margin-bottom: 1rem
+    &:after
+      content ""
+      position: absolute
+      border: 1px solid #00c1a7
+      left: 4px
+      right: 4px
+      bottom: 4px
+      top: 4px
+      transition: all 300ms ease
+      z-index: -1
+    .image, a
+      display: block
+    .image
+      position: relative
+      margin 0 0 10px 0
+      min-height 160px
+    .title
+      display: block
+      color #2c2c2e
+      text-decoration: none
+      padding 10px 0 0 0
+      margin auto 0 0 0
+      text-align: center
+      border-top: 1px solid #cccccc
+      font-family "Gilroy ExtraBold"
+      &:hover
+        color #00c1a7
+    .desc
+      opacity 0;
+      position: absolute
+      padding: .6rem
+      z-index 20
+      color #ffffff
+      .name
+        font-family "Gilroy ExtraBold"
+        text-align: left
+        color #ffffff
+      .link__more
+        margin: 1rem 0 0 0
+        .link__more-text
+          a
+            margin: 0
+            display: inline-block
+      ul
+        margin 10px 0
+        li
+          padding: 0
+          line-height normal
+          font-size rem(14px)
+          &:before
+            content "-"
+            background: none
+            top: 1px
+            left -8px
+    &:hover
+      .desc
+        opacity 1
+      &:after
+        border none
+        background: rgba(0,0,0,.7)
+        z-index 10
+.note
+  font-family: "Gilroy ExtraBold"
+  background-color: rgba(0,193,167,.33)
+  box-shadow: 5px 2px 3px rgba(0,0,0,.09)
+  display: inline-block
+  padding: 2px 16px
+  xs-block({
+    display: block
+    text-align: center
+    margin-top: 10px
+  })
+.responsive
+  max-width 300px
+  float: left
+article .content
+  img.responsive
+    margin: 0 2rem 0 0
+    xs-block({
+      width: 100%
+      margin: 1rem 0
+      display: block
+      float: none
+    })
+img[src=""]
+  display: none
+.with-icon {
+  svg {
+    width: 20px
+    height: 20px
+    display inline-block
+    vertical-align: middle;
+  }
+}
+.ai_center {
+  align-items center
+  margin-top 1.5rem
+  md-block({
+    text-align: center
+  })
+}
+.time-box {
+  text-align: right
+  md-block({
+    text-align: center
+  })
+}
+.call__popup {
+  &:hover {
+    cursor: pointer;
+  }
+}

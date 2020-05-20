@@ -1,0 +1,58 @@
+.guestbook
+  margin 0
+  padding 2rem 0 1.5rem 0
+  md-block({
+    padding: 1rem .5rem
+  })
+  .as__h1
+    md-block({
+      margin-top: 0
+    })
+  .owl-carousel
+    .owl-item
+      .item
+        padding: 3rem 5rem 0 5rem
+        row-flex()
+        justify-content center
+        md-block({
+          padding: 3rem 2rem
+        })
+        .guestbook__image
+          col()
+          size(3)
+          md-block({
+            display: none
+          })
+          img
+            max-width 97px
+        .guestbook__body
+          position: relative
+          col()
+          size(9)
+          size-md(12)
+          &:before
+            content "“"
+            position: absolute
+            top: -50px
+            left: -40px
+            color: #00c1a7
+            font-family: "Gilroy ExtraBold"
+            font-size: rem(80px)
+            font-weight: 400
+            letter-spacing: 0.02px
+            md-block({
+              left: 0
+              top: -55px
+            })
+          .text
+            font-size: rem(14px)
+            font-weight: 400
+            display: inline-block
+            p
+              text-align: left
+          .company
+            margin 1rem 0 0 0
+            font-family "Gilroy ExtraBold"
+            font-size: rem(18px)
+            font-weight: 400
+            letter-spacing: 0.5px

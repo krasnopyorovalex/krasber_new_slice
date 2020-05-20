@@ -1,0 +1,518 @@
+flex-version = flex
+vendor-prefixes = official
+@import "nib"
+@import "smart-grid"
+@import "type-utils"
+@import "fonts"
+@import "sprite"
+@import "components"
+
+base-font-size = 16px
+support-for-ie = false
+
+reset()
+
+//.debug
+//  z-index 10
+//  debug(rgba(0,0,0,0.4), 1px solid #ff0)
+body
+  font-family "Roboto", sans-serif
+  color #2c2c2e;
+a, .icon, .btn_style-two
+  text-decoration:none
+  cursor:pointer
+  transition: all 300ms ease
+a:hover,a:focus,a:visited
+  text-decoration:none
+  outline:none
+p
+  margin 0 0 15px 0
+  text-align justify
+  font-size rem(16px)
+  line-height 24px
+h1, .as__h1, h2, .as__h2, h3, .as__h3, h4, .as__h4, h5, .as__h5
+  color: #2c2c2e;
+  font-family: "Gilroy ExtraBold"
+  font-size: rem(40px)
+  font-weight: 400
+  letter-spacing: 0.02px
+  margin-bottom .5rem
+  margin-top 1.5rem
+  position: relative;
+  md-block({
+    font-size: rem(24px)
+    margin-top: 1rem
+  })
+h2, .as__h2
+  font-size: rem(32px)
+  md-block({
+    font-size: rem(22px)
+  })
+h3, .as__h3
+  font-size: rem(28px)
+  md-block({
+    font-size: rem(20px)
+  })
+h4, .as__h4
+  font-size: rem(24px)
+  md-block({
+    font-size: rem(18px)
+  })
+h5, .as__h5
+  font-size: rem(20px)
+  md-block({
+    font-size: rem(16px)
+  })
+.not__overflow
+  overflow hidden
+.container
+  wrapper()
+header
+  background: url("../img/pattern.png") repeat #00346e
+.sticky__menu
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  transition: all 300ms ease
+  z-index 200
+  md('position','fixed')
+  md-block({
+    background-image: url("../img/pattern.png")
+    background-color: #00346e
+    background-size: 1.6%
+  })
+.top__line
+  padding 18px 0
+  display flex
+  flex-wrap wrap
+  align-items center
+  nav
+    flex-grow 1
+    text-align: right
+    md('position','fixed')
+    md-block({
+      box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.35)
+      left: 0
+      right: 0
+      top: 46px
+      bottom: 0
+      padding: .5rem 2rem
+      transform: translateY(-150%)
+      transition: all .3s cubic-bezier(.395,.425,.015,1) 0s
+      z-index: -1
+      overflow-y: auto
+      overflow-x: hidden
+    })
+    > ul
+      > li
+        //padding 0 0 10px 0
+        position: relative
+        display: inline-block
+        & + li
+          margin-left: 32px
+        > ul
+          position: absolute
+          transition: all 300ms ease
+          opacity 0
+          visibility hidden
+          row-flex()
+          top: 34px
+          left: 0
+          text-align: left
+          padding 1rem
+          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
+          background-color: #ffffff
+          border-top 5px solid #ffffff
+          width: 600px
+          md('position','relative')
+          md-block({
+            visibility: visible
+            opacity: 1
+            width: auto
+            display: block
+            top: unset
+            left: unset
+          })
+          &:after
+            content ""
+            position: absolute
+            top: -1rem
+            left: 56px
+            sprite($triangle_black)
+            md-block({
+              display: none
+            })
+          > li
+            col()
+            size(4)
+            size-md(12)
+            > a
+              transition: all 300ms ease
+              color #2c2c2e;
+              font-family: "Gilroy ExtraBold"
+              font-size: rem(18px)
+              letter-spacing: 0.6px
+              display: inline-block
+              margin-bottom: 1rem
+              md-block({
+                font-size: rem(16px)
+                margin-bottom: .6rem
+              })
+            &:first-child
+              > a
+                max-width 120px
+                md-block({
+                  max-width: 100%
+                })
+            &:hover
+              > a
+                color: #00c1a7
+            ul
+              md-block({
+                display: none
+              })
+              li
+                margin: 4px 0
+                display: block
+                a
+                  display: inline-block
+                  width: 100%
+                  color #2c2c2e;
+                  font-size: rem(14px)
+                  text-decoration: underline
+                  &:hover
+                    color: #00c1a7
+        &:before
+          position: absolute
+          content ""
+          width: 25px
+          bottom: -5px
+          border 1px solid #fff
+          opacity 0
+          transition: all 200ms ease-in-out
+        &.active, &:hover
+          &:before
+            opacity 1
+        &:hover
+          > ul
+            visibility visible
+            opacity 1
+        &.has__child
+          > a
+            &:after
+              content ""
+              sprite($rectangle_down_black)
+              display: inline-block
+              vertical-align: middle
+              margin-left: 4px
+              md-block({
+                display: none
+              })
+        a
+          color: #ffffff
+          font-size: rem(18px)
+  .phone__email
+    margin-left: 46px
+    position: relative
+    md('position','fixed')
+    md-block({
+      transition: all .3s cubic-bezier(.395,.425,.015,1) 0s
+      transform: translateY(-150%)
+      margin-left: 0
+      width: 100%
+      text-align: center
+    })
+    &:before
+      border-left 1px solid #fff
+      height 100%
+      left: -23px
+      top: 0
+      position: absolute
+      content ""
+      md-block({
+        display: none
+      })
+    a
+      color: #ffffff
+      font-size: rem(18px)
+      letter-spacing: 0.01px
+      //padding 0 0 8px 0
+      display: inline-block
+      position: relative
+      &:after {
+        position: absolute
+        content ""
+        width: 40%
+        bottom: -5px
+        left: 0
+        border 1px solid #fff
+        opacity 0
+        transition: all 200ms ease-in-out
+      }
+      &:hover:after {
+        opacity 1;
+      }
+      md-block({
+        font-size: rem(24px)
+        padding: 0
+        display: block
+      })
+      & + a
+        margin-left: 10px
+        md-block({
+          margin: 0.2rem 0 0 0
+        })
+  .logo
+    line-height 0
+    img
+      width: 150px
+      height: auto
+.sticky, .sticky__menu-always
+  position: fixed
+  right: 0
+  left: 0
+  top: 0
+  z-index 200
+  background-image: url("../img/pattern.png")
+  background-color #00346e
+  background-size 1.6%
+  box-shadow: 0 2px 1px rgba(0,0,0,.09)
+  .top__line
+    padding 10px 0
+    .logo {
+      img {
+        width: 120px
+      }
+    }
+    .phone__email:before
+      border-left 1px solid #fff
+    nav ul
+      li.has__child:after
+        sprite($rectangle__down_green)
+.main__image-top
+  padding: 2rem 0 0 0
+.slogan__box
+  position: relative
+  md-block({
+    padding: 0 1rem
+    margin-top: 5rem
+  })
+  lg-block({
+    text-align: center
+    margin-top: 5rem
+  })
+  span
+    margin 2rem 0 0 0
+    display: block
+    color: #ffffff
+    font-size: rem(28px)
+    md-block({
+      font-size: rem(20px)
+    })
+  p
+    color: #ffffff
+    font-family: "Gilroy ExtraBold"
+    font-size: rem(36px)
+    text-transform: uppercase
+    letter-spacing: 3px
+    line-height normal
+    margin: 0
+    lg-block({
+      text-align: center
+    })
+    md-block({
+      font-size: rem(24px)
+    })
+  .btn
+    md-block({
+      display: none
+    })
+    lg('position','relative')
+    lg-block({
+      bottom: unset
+      margin: 2rem 0 0 0
+    })
+.main__text
+  margin: 2rem 0 1rem 0
+  padding 1rem 0 0 0
+.align__items-center
+  align-items center
+.row, .row__with-img
+  row-flex()
+  justify-content center
+  .col-12
+    col()
+    size-lg(12)
+    size(12)
+  .col-11
+    col()
+    size-lg(12)
+    size(11)
+  .col-10
+    col()
+    size(10)
+    size-md(12)
+    size-lg(12)
+  .col-9
+    col()
+    size(9)
+    size-md(12)
+    size-lg(12)
+  .col-8
+    col()
+    size(8)
+    size-md(12)
+  .col-7
+    col()
+    size(7)
+    size-lg(7)
+    size-md(12)
+  .col-6
+    col()
+    size(6)
+    size-lg(6)
+    size-md(12)
+  .col-only-6
+    col()
+    size(6)
+    size-sm(6)
+  .col-5
+    col()
+    size(5)
+    size-lg(5)
+    size-md(12)
+  .col-4
+    col()
+    size(4)
+    size-md(12)
+  .col-3
+    col()
+    size(3)
+    size-md(12)
+    size-lg(12)
+  .col-2
+    col()
+    size(2)
+    size-md(12)
+.row__with-img
+  .col-3
+    size-lg(3)
+    size-md(3)
+    size-sm(3)
+    size-xs(12)
+  .col-9
+    size-lg(9)
+    size-md(9)
+    size-sm(9)
+    size-xs(12)
+figure
+  margin: 0
+  padding: 0
+.center
+  text-align: center
+section
+  position: relative
+  padding 2rem 0
+  margin 2rem 0
+  md-block({
+    padding: 0 .5rem
+    margin: 1rem 0
+  })
+.text__right
+  text-align: right
+main, .main__text
+  margin 2rem 0
+  md-block({
+    padding: 0 .5rem
+    margin: .5rem 0
+  })
+  .as__h1, .as__h2, .as__h3, .as__h4, .as__h5, h1, h2, h3, h4, h5 {
+    margin-top 2.5rem
+    md-block({
+      margin-top: 1.5rem
+    })
+  }
+  p
+    font-size rem(17px)
+    line-height: 26px
+  a
+    color: #00c1a7
+    text-decoration: underline
+  ol, ul
+    margin 0 0 15px 0
+    padding: 0
+    li
+      font-size rem(17px)
+      line-height: 26px
+      padding 0 0 0 .5rem
+      margin 0 0 .5rem 1rem
+      position: relative
+  ul
+    li
+      &:before
+        content ""
+        position: absolute;
+        width: 5px
+        height: 5px
+        left: -.2rem
+        top: 12px
+        background-color: #00c1a7
+        border-radius 50%
+  .order__service-form {
+    margin-bottom 3rem
+  }
+button:focus,button:active
+  outline none
+  border 0
+.hidden__md
+  md-block({
+    display: none
+  })
+.list__items
+  row-flex()
+  justify-content center
+  &-item
+    col()
+    size(4)
+    size-md(6)
+    size-sm(12)
+  &-item2
+    col()
+    size-md(6)
+    size-sm(12)
+    size(6)
+  &-item4
+    col()
+    size-md(6)
+    size-sm(12)
+    size(3)
+
+@import "section-services"
+@import "section-order-service-form"
+@import "section-why-we"
+@import "section-guestbook"
+@import "section-portfolio"
+@import "section-we-work"
+@import "section-order-form"
+@import "section-footer-contacts"
+@import "section-services-prices"
+@import "section-services-list-box"
+@import "step-form"
+@import "seo-posiotions"
+@import "footer"
+@import "breadcrumbs"
+@import "uslugi"
+@import "usluga"
+@import "portfolio"
+@import "article"
+@import "404"
+@import "forms"
+@import "mobile-menu"
+@import "css/owl.carousel.min"
+@import "css/owl.theme.default.min"
+@import "css/lightbox"
+
+button::-moz-focus-inner
+  outline: none
+  border 0

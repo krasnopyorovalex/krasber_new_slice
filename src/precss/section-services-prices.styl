@@ -1,0 +1,105 @@
+.services__prices
+  background-color: #f3f3f3
+  padding 2rem 0 4rem 0
+  margin 0
+  md-block({
+    padding: 0 0 2rem 0
+  })
+.price__table
+  margin: 1rem 0
+  .title, h2, h3
+    padding 1rem
+    margin: 0 0 .5rem 0
+    background-color: #00c1a7
+    color: #ffffff
+    font-family: "Gilroy ExtraBold"
+    font-size: rem(22px)
+    md-block({
+      text-align: center
+      font-size: rem(18px)
+    })
+  .row__price
+    row-flex()
+    align-items stretch
+    .service__name, .price
+      padding: 1rem
+      margin-top 0.5rem
+      margin-bottom 0.5rem
+      font-size: rem(15px)
+      background-color: #f3f3f3
+    .service__name
+      col()
+      size(9)
+    .price
+      col()
+      size(3)
+      font-size: rem(16px)
+      text-align: center
+.price__table.half
+  .row__price:first-child
+    .service__name, .price
+      padding 1rem
+      background-color: #00c1a7
+      color: #ffffff
+      font-family: "Gilroy ExtraBold"
+      font-size: rem(22px)
+      md-block({
+        text-align: center
+        font-size: rem(18px)
+      })
+  .service__name, .price
+    text-align: left
+    size(6)
+.price__table.as__table
+  .service__name, .price
+    text-align: left
+    size(6)
+    size-xs(12)
+.price__table.seo
+  .row__price:first-child
+    .service__name, .price
+      padding 1rem
+      background-color: #00c1a7
+      color: #ffffff
+      font-family: "Gilroy ExtraBold"
+      font-size: rem(22px)
+      md-block({
+        text-align: center
+        font-size: rem(18px)
+      })
+  .service__name
+    size(4)
+    size-md(12)
+    md-block({
+      border-left: 2px solid #2c2c2e
+    })
+  .price
+    text-align: left
+    size(8)
+    size-md(12)
+.info__box
+  background-color: #f3f3f3
+  padding: 1rem 1rem 1rem 1.5rem
+  margin: 1rem 0
+  .title
+    position: relative
+    font-family: "Gilroy ExtraBold";
+    font-size: rem(22px)
+    md-block({
+      font-size: rem(16px)
+    })
+  .body
+    padding 1rem 0
+    p
+      line-height normal
+      font-size: rem(14px)
+  ul
+    li
+      font-size: rem(14px)
+      &:before
+        top: 10px
+        left: -10px
+      & + li
+        margin-top: .5rem
+.services_prices + .order__form
+  margin 0

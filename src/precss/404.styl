@@ -1,0 +1,62 @@
+.not__found
+  margin 2rem 0 0 0
+  padding 5rem 0 3rem 0
+  text-align: center
+  .bg__box
+    position: absolute
+    width: 100%
+    height: auto
+    top: 0
+    bottom: 0
+    background: url("../img/pattern.png") repeat #00c1a7
+    z-index -1
+  h1
+    text-align: center
+    margin: 0 auto
+  .not__found-box
+    color #ffffff
+    position: relative
+    font-family "Gilroy ExtraBold"
+    > img
+      max-width 400px
+      width: 100%
+      left calc(50% - 200px)
+      top: 15%
+      position: absolute
+      md-block({
+        max-width: 200px
+        top: 17%
+        left: calc(50% - 100px)
+      })
+    > div
+      font-size rem(180px)
+      md-block({
+        font-size: rem(105px)
+      })
+    > span
+      font-size rem(20px)
+  .btn_404
+    border-radius: 10px
+    border: 2px solid #ffffff
+    display: inline-block
+    width 160px
+    font-size rem(14px)
+    color #2c2c2e
+    text-align: left
+    padding 6px 25px
+    position: relative
+    margin-top: 2rem
+    &:after
+      position: absolute
+      content ""
+      right: 16px
+      top: 10px
+      transform rotate(180deg)
+      sprite($service_arrow)
+    &:hover
+      border: 2px solid #2c2c2e000
+      background-color: #2c2c2e000
+      color #ffffff
+      &:after
+        transform unset
+        sprite($not_found_arrow_active)

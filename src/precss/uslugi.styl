@@ -1,0 +1,274 @@
+.header
+  margin 2rem 0 0 0
+  padding 2rem 0 0.5rem 0
+  overflow hidden
+  md-block({
+    margin: 0
+    padding: 1rem .5rem .5rem .5rem
+  })
+  &.contact__form-box
+    padding 10rem 0 .5rem
+    md-block({
+      padding: 3rem 0 .5rem
+    })
+  .bg__box
+    position: absolute
+    width: 100%
+    height: auto
+    bottom: 34%
+    top: 0
+    background: url("../img/pattern.png") repeat #ffffff
+    z-index -1
+    md-block({
+      background-size: 10%
+      bottom: 1.2rem
+    })
+  .row
+    row-flex()
+    justify-content center
+    .body
+      margin-top: 6rem
+      position: relative
+      md-block({
+        margin-top: 3rem
+      })
+      figure img
+        vertical-align: middle
+        width: 100%
+        height: auto
+      .text
+        padding 3rem 0 3rem 5rem
+        md-block({
+          padding: 2rem
+        })
+        h1
+          text-transform uppercase
+          color: #ffffff
+        p
+          color: #ffffff
+          font-size: rem(13px)
+          font-weight: 400
+          max-width 320px
+          text-align left
+main
+  .list__items
+    &.develop__steps
+      margin-top: 4rem
+    &-item
+      position: relative
+      box-shadow: 5px 6px 3px rgba(0, 0, 0, 0.09)
+      padding 2rem 2rem 1rem 2rem
+      margin-top 1rem
+      margin-bottom: 3rem
+      .title
+        font-family: "Gilroy ExtraBold";
+        font-size: rem(18px)
+        font-weight: 400
+        letter-spacing: 0.01px
+        margin-bottom: 0.5rem
+        margin-top: 2rem
+        md-block({
+          margin-top: 1rem
+        })
+      .text p
+        font-size: rem(13px)
+        line-height normal
+        sm-block({
+          font-size: rem(14px)
+        })
+      .decor
+        position: absolute
+        top: -2rem
+        left: 2rem
+        right: 2rem
+        display: flex
+        align-items center
+        &__number
+          span
+            background-color: #00c1a7
+            display: inline-block
+            text-align: center
+            font-size rem(16px)
+            line-height 34px
+            width: 34px
+            height: 34px
+            border-radius 50%
+        &__line
+          height 3px
+          background-color: #00c1a7
+          flex-grow 1
+        &__icon
+          .icon
+            fill: #00c1a7
+            height: 60px
+            &:hover
+              cursor: default
+          .de-01
+            width: 64px
+          .de-02
+            width: 47px
+          .de-03
+            width: 47px
+          .de-04
+            width: 69px
+          .de-05
+            width: 51px
+          .de-06
+            width: 72px
+          .de-07
+            width: 62px
+          .de-08
+            width: 62px
+          .de-09
+            width: 62px
+.sites__types
+  background-image: linear-gradient(180deg, #2a6ba8 0%, #00346e 56%, #00153f 100%);
+  padding 1rem 0 3rem 0
+  overflow hidden
+  md-block({
+    margin: 1rem 0 2rem 0
+    padding: 0 .5rem
+  })
+  .bg__box
+    position: absolute
+    width: 100%
+    height: auto
+    bottom: 5%
+    top: 13%
+    background: url("../img/pattern.png") repeat
+    z-index 0
+  .as__h1
+    color #ffffff
+    z-index 10
+    margin 1.5rem 0
+  .list__items
+    &-item2
+      background-color: #ffffff;
+      margin-bottom: 2rem
+      padding 1rem 2rem
+      border-radius 5px
+      z-index 10
+      .row
+        align-items center
+        justify-content center
+        md-block({
+          justify-content: flex-start
+        })
+      .body
+        .title, .price
+          display: block
+          font-family: "Gilroy ExtraBold"
+          font-size: rem(20px)
+          font-weight: 400
+          letter-spacing: 0.01px
+        .title-box {
+          border-bottom: 1px solid #f1f1f1
+          margin-bottom 1rem
+        }
+        .title {
+          padding-bottom: .5rem
+          color #2c2c2e
+          font-size: rem(24px)
+          &:hover {
+            color #00c1a7
+          }
+        }
+        .price
+          color: #00c1a7;
+          span {
+            font-size rem(26px)
+          }
+          md-block({
+            margin: 1rem 0 0 0
+          })
+        p, ul
+          font-size rem(16px)
+          sm-block({
+            font-size: rem(14px)
+          })
+        ul
+          li
+            padding-left: 0.6rem
+            margin: 0 0 0 1rem
+            position: relative
+            line-height 24px
+            &:before
+              content ""
+              position: absolute;
+              width: 5px
+              height: 5px
+              left: -.2rem
+              top: calc(50% - 3px)
+              background-color: #00c1a7
+              border-radius 50%
+        .btn-box {
+          text-align: right
+          md-block({
+            text-align: left
+          })
+        }
+        .btn
+          margin 1rem 0 1rem 0
+          padding 10px 60px 10px 26px
+          width: 120px
+.develop {
+  background-color: rgba(0, 193, 167, 0.3);
+  padding: 2rem 0
+  margin 2rem 0 0 0
+}
+.develop-steps {
+  display: flex
+  justify-content center
+  align-items flex-start
+  flex-wrap wrap
+  &-item {
+    text-align: center;
+    &-circle {
+      display: flex;
+      align-items center
+      justify-content center
+      width: 90px
+      height: 90px
+      border-radius 50%
+      background-color: #fff
+      box-shadow 0 2px 4px 0 hsla(0,0%,0%,.2)
+      position: relative;
+      margin 1rem auto
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .step-number {
+        position: absolute;
+        border-radius 50%
+        line-height: 26px
+        text-align: center
+        font-size rem(12px)
+        top: 0
+        right: 0
+        background-color: #2564a0;
+        width: 26px
+        height: 26px
+        color: #ffffff
+      }
+    }
+    p {
+      text-align: center;
+      max-width 200px
+      font-size rem(12px)
+      line-height normal
+    }
+  }
+  .line-separate {
+    background-image: url('../img/line-separate.png')
+    background-repeat no-repeat
+    text-align: center
+    align-self center
+    width: 120px
+    height: 14px
+    padding 0 0 3rem 0
+    lg-block({
+     display: none
+    })
+  }
+}

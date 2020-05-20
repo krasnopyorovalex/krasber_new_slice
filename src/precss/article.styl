@@ -1,0 +1,63 @@
+article
+  .content
+    margin 2rem 0
+    a
+      color: #00c1a7
+      text-decoration: underline
+      &:hover
+        color #2c2c2e
+    img
+      width: 100%
+      margin 1rem 0 2rem 0
+      md-block({
+        margin: .3rem 0 1rem 0
+      })
+    p
+      line-height: 24px
+      width: 100%
+      display: inline-block
+.ad
+  box-shadow 0 4px 6px rgba(0,0,0,.1)
+  text-align: center
+  //padding 1rem 0
+  img
+    &:hover
+      cursor: pointer
+  .text
+    font-family: "Gilroy ExtraBold";
+    font-size: rem(18px)
+.other__articles
+  margin 3rem 0 0 0
+  img:hover
+    cursor: pointer
+  .title
+    font-family: "Gilroy ExtraBold";
+    font-size: rem(24px)
+    margin-bottom: 1rem
+  .other__articles-row
+    row-flex()
+    position: relative
+    align-items center
+    margin-bottom: 1.5rem
+    box-shadow 0 4px 6px rgba(0,0,0,.1)
+    .other__articles-name
+      col()
+      size(6)
+      z-index 10
+      .name
+        font-size: rem(14px)
+        text-decoration: none
+        color: #2c2c2e
+        &:hover {
+          text-decoration: underline
+        }
+        xxs-block({
+          padding: 0 4px 0 6px
+        })
+    .other__articles-image
+      col()
+      size(6)
+      z-index 10
+      img
+        float: left
+        margin 0 1rem 0 0

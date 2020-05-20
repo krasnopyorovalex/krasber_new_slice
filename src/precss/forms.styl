@@ -1,0 +1,118 @@
+form
+  position: relative
+  .services__list-block
+    position: relative
+    .select__arrow
+      sprite($select_arrow)
+      content ""
+      position: absolute
+      right: 12px
+      top: calc(50% - 2px)
+  input, select, textarea
+    outline none
+    width: 100%
+    border none
+    box-sizing border-box
+    box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.2);
+    border-radius: 3px;
+    background-color: #ffffff
+    font-size: rem(14px)
+    font-weight: 400
+    padding 10px
+    md-block({
+      text-align: center
+    })
+  button[type=submit]
+    padding 10px 64px 10px 34px
+    border none
+    width: 100%
+    m-block({
+      width: 180px
+    })
+    &:focus, &:active
+      outline-right: 2px #333 solid
+    &:hover
+      cursor: pointer
+  select
+    text-shadow: none
+    appearance: none
+    &:active, &:focus
+      outline 0
+      outline-offset:0
+    option, optgroup
+      color: #2c2c2e
+      background-color: #ffffff
+    option
+      &:hover
+        cursor: pointer
+  .error
+    display: none
+    position: absolute
+    margin-left: 2rem
+    color red
+    font-size rem(12px)
+input, textarea
+  &:focus::placeholder
+    color transparent
+.single__block
+  text-align: left
+  width: 100%
+  display: inline-block
+  position: relative
+  md-block({
+    text-align: center
+  })
+  &.agree__block
+    md-block({
+      order: 1
+    })
+    input[type=checkbox]
+      opacity 0
+      width: auto
+      height: auto
+      &:checked + label:before
+        sprite($agree_ckeck)
+    label
+      color: #fff
+      font-size: rem(12px)
+      letter-spacing: 0.01px
+      position: relative
+      padding-left: 0.5rem
+      &:hover
+        cursor: pointer
+      &:before
+        content ""
+        position: absolute
+        left: -1.2rem
+        top: 0
+        sprite($agree_unckeck)
+      a
+        color: #ffffff
+        text-decoration: underline
+.order__service
+  width: 450px
+  margin-left: 2.5rem
+  text-align: center
+  row-flex()
+  justify-content center;
+  md-block({
+    width: 100%
+  })
+  .single__block
+    size(6)
+    size-md(6)
+    size-sm(12)
+    col()
+    md-block({
+      text-align: center
+    })
+    &.services__list-block
+      size(12)
+      size-md(12)
+      col()
+    & + .single__block
+      margin-top: 22px
+    &.agree__block
+      size(12)
+      size-md(12)
+      col()

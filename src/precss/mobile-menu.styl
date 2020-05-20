@@ -1,0 +1,145 @@
+header
+  md-block({
+    background-size: 10%
+  })
+  .sticky__menu
+    .top__line
+      md('display','flex')
+      md('align-items','center')
+      md-block({
+        padding: 8px 0 6px 0
+      })
+    .close
+      width: 28px
+      height: 28px
+      padding: 0 1rem
+    .icon
+      width: 28px
+      height: 28px
+      padding: 0 1rem
+      fill: #ffffff
+      display: none
+      md-block({
+        display: block
+      })
+    .logo
+      text-align: center
+      md-block({
+        flex-grow: 1
+      })
+      img
+        md('width', 120px)
+        md-block({
+          vertical-align: middle
+        })
+    .phone__svg
+      display: none
+      md-block({
+        display: block
+      })
+      .phone
+        width: 28px
+        height: 28px
+        padding: 0 1rem
+        fill: #ffffff
+    &.is__open
+      .top__line
+        nav
+          background-color #ffffff
+          md-block({
+            z-index: 5
+            transform: translateY(0)
+            padding-top: 110px
+            width: 100%
+            padding: 1rem 0 0 0
+          })
+          > ul
+            md-block({
+              text-align: left
+            })
+            > li
+              box-sizing border-box
+              md-block({
+                display: block
+                width: 100%
+                padding: 0
+              })
+              &:last-child
+                md-block({
+                  border-bottom: 1px solid #cccccc
+                })
+              a
+                padding: .5rem 0 .5rem 2rem
+                display: inline-block
+                width: 100%
+                color #2c2c2e;
+                md-block({
+                  font-size: rem(16px)
+                })
+              &
+                > ul
+                  md-block({
+                    margin: 0
+                    width: 100%
+                    padding: 0
+                    border: none
+                    box-shadow: none
+                    background: none
+                    text-align: center
+                  })
+                  li
+                    padding: 0
+                    margin: 0
+                    width: 100%
+                    border-top: 1px solid #cccccc
+                    text-align: left
+                    position: relative
+                    span
+                      display: none
+                      md('position', 'absolute')
+                      md-block({
+                        display: block
+                        right: 0
+                        top: 0
+                        padding: 0.6rem 1.1rem
+                        border-left: 1px solid #ccc
+                      })
+                      i
+                        vertical-align: middle
+                        display: inline-block
+                        sprite($select_arrow)
+                    ul
+                      li
+                        a
+                          md-block({
+                            padding: .5rem 0 .5rem 4rem
+                            text-decoration: none
+                            font-size: rem(16px)
+                          })
+                          &:before
+                            content ""
+                            position: absolute;
+                            width: 6px
+                            height: 6px
+                            left: 3rem
+                            top: calc(50% - 2px)
+                            background-color: #00346e
+                            border-radius 50%
+                            display: none
+                            md-block({
+                              display: inline-block
+                              vertical-align: middle
+                              content: ""
+                              margin-right: 8px
+                            })
+                    a
+                      padding: .5rem 0 0 3rem
+              &:before
+                md-block({
+                  border: none
+                })
+              & + li
+                md-block({
+                  margin-left: 0
+                  border-top: 1px solid #cccccc
+                })
