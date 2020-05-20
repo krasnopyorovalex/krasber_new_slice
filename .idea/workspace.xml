@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9c0c9a-907f-4d51-bd96-9d17879407cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/ds-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ds-02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ds-03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ds-04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ds-05.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ds-06.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ds-07.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/line-separate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logo_blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/banner-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/banner-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/wide-form-bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons-svg/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons-svg/menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/in_razrabotka.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/in_razrabotka.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/symbols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/symbols.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seo-prodvizhenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/seo-prodvizhenie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/usluga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/usluga.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uslugi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/uslugi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/precss/components.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/uslugi.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-guestbook.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-services-list-box.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/_2_pwabuilder-sw.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/seo-posiotions.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-order-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-service-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.carousel.min.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/footer.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-footer-contacts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-prices.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_lightbox.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/forms.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-we-work.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/article.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/components.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery.mask.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/fonts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-footer-contacts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/svg/symbols.svg&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/footer.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-why-we.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/app.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-form.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/_0_sw_enable.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/mobile-menu.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/forms.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/app.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/app.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-order-service-form.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/fonts.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/usluga.styl&#10;true&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-list-box.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/article.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/sprite.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.theme.default.min.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/moile-menu.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/gulpfile.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/lightbox.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/smart-grid.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/gulpfile.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/sprite.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/usluga.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-why-we.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/blog.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery-3.3.1.min.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/app.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/mobile-menu.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-services.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/breadcrumbs.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/step-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-guestbook.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/uslugi.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/404.styl" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/precss/components.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/uslugi.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-guestbook.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-services-list-box.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/_2_pwabuilder-sw.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/seo-posiotions.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-order-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-service-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.carousel.min.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/footer.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-footer-contacts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-prices.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_lightbox.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/forms.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-we-work.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/article.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/components.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery.mask.min.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/fonts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-footer-contacts.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/svg/symbols.svg&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/footer.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-why-we.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/app.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-order-form.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/prejs/_0_sw_enable.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/mobile-menu.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/forms.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/app.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-portfolio.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/app.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-order-service-form.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/fonts.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/usluga.styl&#10;true&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services-list-box.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/article.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/sprite.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/owl.theme.default.min.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/moile-menu.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/gulpfile.js&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/css/lightbox.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/smart-grid.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/gulpfile.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/sprite.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/usluga.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-why-we.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/blog.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-services.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/css/owl.theme.default.min.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/prejs/_jquery-3.3.1.min.js&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/app.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/mobile-menu.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/section-services.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/breadcrumbs.styl&#10;/mnt/98713c14-47b0-4c30-ac9a-2dfc843d960c/Вёрстка/krasber-new-slice/src/precss/step-form.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/section-guestbook.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/uslugi.styl&#10;/mnt/storage_hdd/Вёрстка/krasber-new-slice/src/precss/404.styl" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/precss" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -87,23 +82,23 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="browserSync" type="js.build_tools.gulp" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>browserSync</task>
-      </tasks>
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="build" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
       <tasks>
         <task>build</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="css" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>css</task>
       </tasks>
       <arguments />
       <envs />
@@ -143,19 +138,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gulp.js.browserSync" />
       <item itemvalue="Gulp.js.build" />
       <item itemvalue="Gulp.js.default" />
       <item itemvalue="Gulp.js.js" />
       <item itemvalue="Gulp.js.watch" />
+      <item itemvalue="Gulp.js.css" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.css" />
         <item itemvalue="Gulp.js.build" />
         <item itemvalue="Gulp.js.watch" />
         <item itemvalue="Gulp.js.js" />
-        <item itemvalue="Gulp.js.browserSync" />
       </list>
     </recent_temporary>
   </component>
@@ -360,6 +355,67 @@
       <workItem from="1583300066357" duration="12000" />
       <workItem from="1583300102093" duration="134000" />
       <workItem from="1583305580525" duration="3977000" />
+      <workItem from="1583389926327" duration="9958000" />
+      <workItem from="1583400714090" duration="81000" />
+      <workItem from="1583401494998" duration="78000" />
+      <workItem from="1583402062516" duration="301000" />
+      <workItem from="1583402449934" duration="469000" />
+      <workItem from="1583403407793" duration="185000" />
+      <workItem from="1583405296250" duration="730000" />
+      <workItem from="1583407057161" duration="46000" />
+      <workItem from="1583407130762" duration="92000" />
+      <workItem from="1583407719896" duration="2659000" />
+      <workItem from="1583410673857" duration="76000" />
+      <workItem from="1583410923642" duration="2176000" />
+      <workItem from="1583413254798" duration="797000" />
+      <workItem from="1583414157623" duration="86000" />
+      <workItem from="1583414355133" duration="29000" />
+      <workItem from="1583415008772" duration="206000" />
+      <workItem from="1583415348031" duration="140000" />
+      <workItem from="1583415875580" duration="45000" />
+      <workItem from="1583415992706" duration="37000" />
+      <workItem from="1583416224546" duration="581000" />
+      <workItem from="1583416935018" duration="22000" />
+      <workItem from="1583418807133" duration="42000" />
+      <workItem from="1583418910179" duration="37000" />
+      <workItem from="1583422430248" duration="66000" />
+      <workItem from="1583422593700" duration="33000" />
+      <workItem from="1583474835679" duration="1413000" />
+      <workItem from="1583478478564" duration="478000" />
+      <workItem from="1583479078428" duration="21000" />
+      <workItem from="1583479172540" duration="74000" />
+      <workItem from="1583479346646" duration="97000" />
+      <workItem from="1583482593578" duration="828000" />
+      <workItem from="1583483489723" duration="34000" />
+      <workItem from="1583486523202" duration="25000" />
+      <workItem from="1583498536391" duration="100000" />
+      <workItem from="1583498689364" duration="293000" />
+      <workItem from="1583499232860" duration="35000" />
+      <workItem from="1583499824242" duration="41000" />
+      <workItem from="1583565354468" duration="300000" />
+      <workItem from="1583565915068" duration="1880000" />
+      <workItem from="1583568006112" duration="49000" />
+      <workItem from="1583568089898" duration="172000" />
+      <workItem from="1583568510150" duration="539000" />
+      <workItem from="1583569871357" duration="157000" />
+      <workItem from="1583576280467" duration="59000" />
+      <workItem from="1583576394039" duration="4000" />
+      <workItem from="1583577397331" duration="164000" />
+      <workItem from="1583822664388" duration="577000" />
+      <workItem from="1583831691183" duration="208000" />
+      <workItem from="1583906353761" duration="79000" />
+      <workItem from="1584434586665" duration="176000" />
+      <workItem from="1584434816678" duration="98000" />
+      <workItem from="1584435031797" duration="376000" />
+      <workItem from="1584598330513" duration="1232000" />
+      <workItem from="1584710562127" duration="99000" />
+      <workItem from="1584710837593" duration="70000" />
+      <workItem from="1584711272777" duration="70000" />
+      <workItem from="1584711508069" duration="75000" />
+      <workItem from="1584711858961" duration="28000" />
+      <workItem from="1584720457349" duration="57000" />
+      <workItem from="1586347130714" duration="175000" />
+      <workItem from="1586347474254" duration="74000" />
     </task>
     <servers />
   </component>
@@ -383,33 +439,29 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="643" y="280" width="624" height="543" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583300073123" />
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1583334803016">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom" timestamp="1586347548193">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269530" />
-    <state width="1874" height="273" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1583334803016" />
-    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1583334803015">
+    <state width="1874" height="273" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586347548193" />
+    <state width="1874" height="273" key="GridCell.Tab.0.center" timestamp="1586347548192">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269530" />
-    <state width="1874" height="273" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1583334803015" />
-    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1583334803014">
+    <state width="1874" height="273" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586347548192" />
+    <state width="1874" height="273" key="GridCell.Tab.0.left" timestamp="1586347548191">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269529" />
-    <state width="1874" height="273" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1583334803014" />
-    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1583334803015">
+    <state width="1874" height="273" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586347548191" />
+    <state width="1874" height="273" key="GridCell.Tab.0.right" timestamp="1586347548192">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="273" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1280.1024@0.27.1920.1053" timestamp="1575046269530" />
-    <state width="1874" height="273" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1583334803015" />
-    <state x="608" y="260" width="703" height="586" key="find.popup" timestamp="1583335186674">
+    <state width="1874" height="273" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586347548192" />
+    <state x="608" y="260" width="857" height="656" key="find.popup" timestamp="1586347250011">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="608" y="260" width="703" height="586" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583335186674" />
-    <state x="624" y="255" width="672" height="677" key="run.anything.popup" timestamp="1583252027175">
+    <state x="608" y="260" width="857" height="656" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586347250011" />
+    <state x="624" y="255" width="672" height="677" key="run.anything.popup" timestamp="1583477869218">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="624" y="255" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583252027175" />
+    <state x="624" y="255" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583477869218" />
   </component>
 </project>
